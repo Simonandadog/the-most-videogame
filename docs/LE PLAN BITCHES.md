@@ -16,7 +16,9 @@ some sort of final goal of a bus on pluto.
 	ability to land on pluto, perhaps just a cutscene or something. 
 main menu/ui
 	figure out how to have a main menu and ui. 
-start from mercury, for ease of programming. 
+start from mercury, for ease of programming.
+MS paint style
+	draw everything in ms paint or similar program
 ***could have***
 ability to build spaceships yourself. 
 	quite dificult, because like, that shit is dificult. 
