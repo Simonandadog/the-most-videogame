@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://bwg1ewfmk5xad"]
+
+[ext_resource type="Script" uid="uid://i1q4nnwsrxh8" path="res://scenes/character_body_2d.gd" id="1_dkv7l"]
+[ext_resource type="Texture2D" uid="uid://be4ob8k24e054" path="res://art/placeholder_ship.png" id="1_fj03e"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5gt1y"]
+size = Vector2(232, 536)
+
+[node name="Node2D" type="Node2D" unique_id=697152937]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1126901952]
+script = ExtResource("1_dkv7l")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=106198992]
+position = Vector2(-28, 4)
+shape = SubResource("RectangleShape2D_5gt1y")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=408595856]
+texture = ExtResource("1_fj03e")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=2140253013]

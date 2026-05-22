@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://7uh636e44ddn"]
+
+[ext_resource type="Texture2D" uid="uid://ckdig8v540mxa" path="res://art/space.jpg" id="1_o5qli"]
+[ext_resource type="PackedScene" uid="uid://bwg1ewfmk5xad" path="res://scenes/rocket.tscn" id="4_jyhfs"]
+
+[node name="Node2D" type="Node2D" unique_id=1372420083]
+
+[node name="Node2D" type="Node2D" parent="." unique_id=661252183]
+position = Vector2(0, 3)
+
+[node name="Space background2" type="Sprite2D" parent="Node2D" unique_id=1174424651]
+position = Vector2(4, -8995)
+texture = ExtResource("1_o5qli")
+
+[node name="Space background3" type="Sprite2D" parent="Node2D" unique_id=366496305]
+position = Vector2(4, -14995)
+texture = ExtResource("1_o5qli")
+
+[node name="Space background4" type="Sprite2D" parent="Node2D" unique_id=2060889225]
+position = Vector2(4, -20995)
+texture = ExtResource("1_o5qli")
+
+[node name="Space background5" type="Sprite2D" parent="Node2D" unique_id=1268053955]
+position = Vector2(4, -26995)
+texture = ExtResource("1_o5qli")
+
+[node name="Space background" type="Sprite2D" parent="Node2D" unique_id=1886182292]
+position = Vector2(4, -3000)
+texture = ExtResource("1_o5qli")
+
+[node name="rocket" parent="." unique_id=697152937 instance=ExtResource("4_jyhfs")]
+position = Vector2(8, -40)
+scale = Vector2(0.3, 0.3)

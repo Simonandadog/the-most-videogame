@@ -21,7 +21,9 @@ MS paint style
 	draw everything in ms paint or similar program
 ***could have***
 ability to build spaceships yourself. 
-	quite dificult, because like, that shit is dificult. 
+	quite dificult, because like, that shit is dificult.
+when you get close to a planet, gravity starts pulling you towards that planet. 
+	idk how i would do this, but it seems doable. 
 
 ***probally wont have***
 if you go to the sun, you die. 
@@ -29,3 +31,16 @@ if you go to the sun, you die.
 
 ***wont have***
 your mom, as she dosent fit on my computer.
+
+
+
+# BIG TODOS:
+	make like all the planets and stuff
+	work out exactly how the leveling system will work
+		perhaps like each planet is a level or something idk. 
+	make notification system to notify the notifees of the things they have to be notified about
+		this is a ui thing which is a ddoable activity. 
+		
+		
+# Smaller Todos:
+	make the nose of the rocket follow the direction of travel like a birdie in badminton. 
