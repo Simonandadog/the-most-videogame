@@ -124,14 +124,14 @@ To most effectively manage this, you can make your **killzone** be its own scene
 @onready var timer = $Timer  
   
 func _on_body_entered(body: Node2D) -> void:  
-    print("you died.")
-    Engine.time_scale = 0.5
-    body.get_node("CollisionShape2D").queue_free()
-    timer.start()  
+	print("you died.")
+	Engine.time_scale = 0.5
+	body.get_node("CollisionShape2D").queue_free()
+	timer.start()  
   
 func _on_timer_timeout() -> void:  
 	Engine.time_scale = 1
-    get_tree().reload_current_scene()
+	get_tree().reload_current_scene()
 ```
 
 This here code does the following: 
