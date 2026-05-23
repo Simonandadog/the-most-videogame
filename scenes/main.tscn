@@ -31,3 +31,6 @@ texture = ExtResource("1_o5qli")
 [node name="rocket" parent="." unique_id=697152937 instance=ExtResource("4_jyhfs")]
 position = Vector2(8, -40)
 scale = Vector2(0.3, 0.3)
+
+[node name="TileMap" type="TileMap" parent="." unique_id=835205107]
+format = 2

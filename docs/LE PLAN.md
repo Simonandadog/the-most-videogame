@@ -7,7 +7,7 @@ space
 rockets
 	draw rockets, a bit more dificult
 fuel
-	for the time that the rocket is burning, fuel decreases
+	for the time that the rocket is burning, fuel decreases ✅
 accumulateing meters. 
 	count distance from start that we move. 
 leveling up stuff
@@ -48,3 +48,10 @@ your mom, as she dosent fit on my computer.
 	
 # Todos that exist becase idk:
 	make large space background.
+
+
+
+# list of imediate things to do: 
+	actually make a level ig. 
+		that involves drawing each planet, and that sort of thing. 
+	
