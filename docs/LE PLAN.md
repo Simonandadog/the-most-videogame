@@ -44,3 +44,7 @@ your mom, as she dosent fit on my computer.
 		
 # Smaller Todos:
 	make the nose of the rocket follow the direction of travel like a birdie in badminton. 
+	
+	
+# Todos that exist becase idk:
+	make large space background.

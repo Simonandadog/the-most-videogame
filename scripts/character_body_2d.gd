@@ -23,7 +23,19 @@ func _physics_process(delta: float) -> void:
 		velocity.x = direction * SPEED
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
+	
+	
+	
+	if direction == 1.0 :
+		rotation = 0.3
+	elif direction == -1.0 :
+		rotation = -0.3
+	else:
+		rotation = 0
+	
 		
+		
+
 	if velocity.y <  200:
 		animated_sprite_2d.animation = &"flying"
 	else:
