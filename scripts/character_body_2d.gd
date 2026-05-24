@@ -3,7 +3,7 @@ extends CharacterBody2D
 
 const SPEED = 300.0
 const JUMP_VELOCITY = -4000.0
-var fuel = 60000
+var fuel = 99999999999999999999999999999999999999999999999999
 var distance = 0
 
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D

@@ -23,7 +23,7 @@ MS paint style
 ability to build spaceships yourself. 
 	quite dificult, because like, that shit is dificult.
 when you get close to a planet, gravity starts pulling you towards that planet. 
-	idk how i would do this, but it seems doable. 
+	idk how i would do this, but it seems doable. it might impact gameplay tho, the way ive designed it. 
 
 ***probally wont have***
 if you go to the sun, you die. 
