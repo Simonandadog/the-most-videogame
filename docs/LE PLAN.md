@@ -54,4 +54,4 @@ your mom, as she dosent fit on my computer.
 # list of imediate things to do: 
 	actually make a level ig. 
 		that involves drawing each planet, and that sort of thing. 
-	
+	to make it look kinda neat, make the ship get smaller as you get closer to a planet, because i think that would look cool. 
