@@ -3,15 +3,16 @@ extends CharacterBody2D
 
 const SPEED = 300.0
 const JUMP_VELOCITY = -4000.0
-var fuel = 99999999999999999999999999999999999999999999999999
+var fuel = 999999999999999
 var distance = 0
 
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 
 
+
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
-	if not is_on_floor():
+	if not is_on_floor() and position.y < 2000 :
 		velocity += get_gravity() * delta
 
 	# Handle rocket going up                                        .

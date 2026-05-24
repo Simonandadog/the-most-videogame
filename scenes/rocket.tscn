@@ -39,11 +39,11 @@ script = ExtResource("1_dkv7l")
 position = Vector2(-20, -20)
 shape = SubResource("RectangleShape2D_5gt1y")
 
-[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=2140253013]
-
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=771570134]
 position = Vector2(0, 152)
 scale = Vector2(1, 0.84000003)
 sprite_frames = SubResource("SpriteFrames_dkv7l")
 animation = &"static"
 autoplay = "static"
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=396113402]
