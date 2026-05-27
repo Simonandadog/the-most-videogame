@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
-@export var Area_2D_bullet : PackedScene
+@onready var area_2d_bullet: Area2D = $"/scenes/area_2d_bullet"
+
 
 const SPEED = 300.0
 const JUMP_VELOCITY = -4000.0
@@ -11,7 +12,8 @@ var distance = 0
 
 
 func shoot():
-	var b = Area_2D_bullet.instantiate()
+	
+	var b = area_2d_bullet.instantiate()
 	add_child(b)
 	b.transform = $Muzzle.transform
 
@@ -33,7 +35,7 @@ func _physics_process(delta: float) -> void:
 	if distance < position.y :
 		distance = position.y
 	print(distance)
-
+	
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var direction := Input.get_axis("left", "right")

@@ -35,6 +35,9 @@ animations = [{
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1126901952]
 script = ExtResource("1_dkv7l")
 
+[node name="Marker2D" type="Marker2D" parent="CharacterBody2D" unique_id=414764864]
+position = Vector2(0, -225)
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=106198992]
 position = Vector2(-20, -20)
 shape = SubResource("RectangleShape2D_5gt1y")
@@ -47,6 +50,3 @@ animation = &"static"
 autoplay = "static"
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=396113402]
-
-[node name="Marker2D" type="Marker2D" parent="." unique_id=414764864]
-position = Vector2(0, -225)
