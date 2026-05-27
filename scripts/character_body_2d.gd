@@ -1,5 +1,6 @@
 extends CharacterBody2D
 
+@export var Area_2D_bullet : PackedScene
 
 const SPEED = 300.0
 const JUMP_VELOCITY = -4000.0
@@ -7,6 +8,13 @@ var fuel = 999999999999999
 var distance = 0
 
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
+
+
+func shoot():
+	var b = Area_2D_bullet.instantiate()
+	add_child(b)
+	b.transform = $Muzzle.transform
+
 
 
 
@@ -42,6 +50,10 @@ func _physics_process(delta: float) -> void:
 		rotation = -0.3
 	else:
 		rotation = 0
+	
+	
+	if Input.is_action_just_pressed("shoot"):
+		shoot()
 	
 
 	move_and_slide()

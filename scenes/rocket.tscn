@@ -47,3 +47,6 @@ animation = &"static"
 autoplay = "static"
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=396113402]
+
+[node name="Marker2D" type="Marker2D" parent="." unique_id=414764864]
+position = Vector2(0, -225)
