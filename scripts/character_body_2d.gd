@@ -3,7 +3,7 @@ extends CharacterBody2D
 @onready var area_2d_bullet: Area2D = $"/scenes/area_2d_bullet"
 
 
-const SPEED = 300.0
+const SPEED = 1000.0
 const JUMP_VELOCITY = -4000.0
 var fuel = 999999999999999
 var distance = 0
