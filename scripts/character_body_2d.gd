@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@onready var area_2d_bullet: Area2D = $"/scenes/area_2d_bullet"
+@export var bullet_scene: PackedScene
 
 
 const SPEED = 1000.0
@@ -11,13 +11,11 @@ var distance = 0
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 
 
+
 func shoot():
-	
-	var b = area_2d_bullet.instantiate()
-	add_child(b)
-	b.transform = $Muzzle.transform
-
-
+	var b = bullet_scene.instantiate()
+	get_tree().current_scene.add_child(b)  # world, not player
+	b.global_transform = $Muzzle.global_transform  # real world position
 
 
 func _physics_process(delta: float) -> void:
@@ -32,9 +30,11 @@ func _physics_process(delta: float) -> void:
 			animated_sprite_2d.animation = &"flying"
 	else:
 		animated_sprite_2d.animation = &"static"
-	if distance < position.y :
+		
+		
+	if distance > position.y :
 		distance = position.y
-	print(distance)
+	
 	
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
