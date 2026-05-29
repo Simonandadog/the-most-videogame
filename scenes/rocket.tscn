@@ -52,4 +52,5 @@ autoplay = "static"
 position = Vector2(-26.29, -257.37823)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=396113402]
+offset = Vector2(0, -700)
 zoom = Vector2(0.32, 0.32)
