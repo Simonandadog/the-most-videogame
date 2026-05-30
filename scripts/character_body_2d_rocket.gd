@@ -4,7 +4,7 @@ extends CharacterBody2D
 
 
 const SPEED = 1000.0
-const JUMP_VELOCITY = -4000.0
+const JUMP_VELOCITY = -3000.0
 var fuel = 999999999999999
 var distance = 0
 

@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://siwv1mph7bmq"]
 
-[ext_resource type="Script" uid="uid://i1q4nnwsrxh8" path="res://scripts/character_body_2d.gd" id="1_dkv7l"]
+[ext_resource type="Script" uid="uid://i1q4nnwsrxh8" path="res://scripts/character_body_2d_rocket.gd" id="1_dkv7l"]
 [ext_resource type="Texture2D" uid="uid://be4ob8k24e054" path="res://art/placeholder_ship.png" id="1_fj03e"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5gt1y"]

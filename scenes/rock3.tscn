@@ -1,7 +1,7 @@
-[gd_scene format=3 uid="uid://be325u4t0xwic"]
+[gd_scene format=3 uid="uid://b4uvhxwxtycpu"]
 
-[ext_resource type="Script" uid="uid://bvekkbs6lbdcl" path="res://scripts/rock_1_try_2.gd" id="1_xa756"]
-[ext_resource type="Texture2D" uid="uid://cl5nakdko8b82" path="res://art/rock1.png" id="2_s4bys"]
+[ext_resource type="Script" uid="uid://bvekkbs6lbdcl" path="res://scripts/rock_1_try_2.gd" id="1_1nqmy"]
+[ext_resource type="Texture2D" uid="uid://dal80gl26nr8r" path="res://art/rock3.png" id="2_0o7em"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2v4li"]
 size = Vector2(761, 880.5)
@@ -9,13 +9,13 @@ size = Vector2(761, 880.5)
 [node name="Area2D" type="Area2D" unique_id=1351548379]
 collision_layer = 3
 collision_mask = 3
-script = ExtResource("1_xa756")
+script = ExtResource("1_1nqmy")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1404025590]
-texture = ExtResource("2_s4bys")
+texture = ExtResource("2_0o7em")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=897188906]
-position = Vector2(-16, -16)
+position = Vector2(48, 8)
 shape = SubResource("RectangleShape2D_2v4li")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
