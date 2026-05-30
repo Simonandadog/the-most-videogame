@@ -7,6 +7,7 @@
 size = Vector2(648, 800)
 
 [node name="RigidBody2D rock 1" type="RigidBody2D" unique_id=2145308230]
+collision_layer = 3
 collision_mask = 2
 script = ExtResource("1_82u45")
 

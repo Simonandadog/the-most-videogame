@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://ckdig8v540mxa" path="res://art/space.jpg" id="1_o5qli"]
 [ext_resource type="Texture2D" uid="uid://cltkfmery683d" path="res://art/earf.png" id="3_sugp2"]
 [ext_resource type="PackedScene" uid="uid://bwg1ewfmk5xad" path="res://scenes/rocket.tscn" id="4_jyhfs"]
-[ext_resource type="PackedScene" uid="uid://ckx5kv6ydknfy" path="res://scenes/rigid_body_2d_rock_1.tscn" id="4_tbgi4"]
+[ext_resource type="PackedScene" uid="uid://be325u4t0xwic" path="res://scenes/rock1_try2.tscn" id="4_tbgi4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0wfyh"]
 texture = ExtResource("1_o5qli")
@@ -35,11 +35,11 @@ tile_set = SubResource("TileSet_sugp2")
 position = Vector2(24, -768)
 texture = ExtResource("3_sugp2")
 
+[node name="Area2D" parent="." unique_id=1351548379 instance=ExtResource("4_tbgi4")]
+position = Vector2(-48, -1744)
+
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=2040112948]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1564845231]
 position = Vector2(0, -208)
 shape = SubResource("WorldBoundaryShape2D_sugp2")
-
-[node name="RigidBody2D rock 1" parent="." unique_id=2145308230 instance=ExtResource("4_tbgi4")]
-position = Vector2(-40, -2392)
