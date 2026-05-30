@@ -36,9 +36,11 @@ position = Vector2(24, -768)
 texture = ExtResource("3_sugp2")
 
 [node name="Area2D" parent="." unique_id=1351548379 instance=ExtResource("4_tbgi4")]
-position = Vector2(-48, -1744)
+position = Vector2(-56, -2496)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=2040112948]
+collision_layer = 4
+collision_mask = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1564845231]
 position = Vector2(0, -208)
