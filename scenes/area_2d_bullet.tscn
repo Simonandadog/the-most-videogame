@@ -7,8 +7,6 @@
 size = Vector2(144, 960)
 
 [node name="Area2D bullet" type="Area2D" unique_id=556048071]
-collision_layer = 3
-collision_mask = 3
 script = ExtResource("1_sw6mc")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=807144716]
@@ -22,3 +20,4 @@ position = Vector2(-24, -88)
 shape = SubResource("RectangleShape2D_ea0lc")
 
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

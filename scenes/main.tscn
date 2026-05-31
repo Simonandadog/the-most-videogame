@@ -18,15 +18,22 @@ texture_region_size = Vector2i(1000, 6000)
 tile_size = Vector2i(1000, 6000)
 sources/0 = SubResource("TileSetAtlasSource_0wfyh")
 
-[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_sugp2"]
-distance = 744.0
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_tipki"]
+normal = Vector2(1, 0)
+distance = -104.0
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_85g3d"]
 normal = Vector2(-1, 0)
 
-[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_tipki"]
-normal = Vector2(1, 0)
-distance = -104.0
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_sugp2"]
+distance = 744.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tipki"]
+size = Vector2(20808, 2557)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_85g3d"]
+a = Vector2(10400, -16)
+b = Vector2(-10368, -16)
 
 [node name="Node2D" type="Node2D" unique_id=1372420083]
 
@@ -46,25 +53,32 @@ tile_set = SubResource("TileSet_sugp2")
 position = Vector2(24, -768)
 texture = ExtResource("3_sugp2")
 
-[node name="Area2D" parent="." unique_id=1351548379 instance=ExtResource("4_tbgi4")]
-position = Vector2(-1536, -48272)
-scale = Vector2(0.5, 0.5)
+[node name="borders" type="Node" parent="." unique_id=1898552494]
 
-[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=2040112948]
+[node name="RigidBody2D" type="RigidBody2D" parent="borders" unique_id=729334941]
+position = Vector2(176, -49200)
 collision_layer = 4
 collision_mask = 4
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1564845231]
-position = Vector2(0, -208)
-shape = SubResource("WorldBoundaryShape2D_sugp2")
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="borders/RigidBody2D" unique_id=1562930600]
+position = Vector2(-2504, 64)
+shape = SubResource("WorldBoundaryShape2D_tipki")
 
-[node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=204950234]
+[node name="StaticBody2D2" type="StaticBody2D" parent="borders" unique_id=204950234]
 position = Vector2(2720, -48208)
 scale = Vector2(0.5, 0.5)
 collision_layer = 4
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2" unique_id=154577982]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="borders/StaticBody2D2" unique_id=154577982]
 shape = SubResource("WorldBoundaryShape2D_85g3d")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="borders" unique_id=2040112948]
+collision_layer = 4
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="borders/StaticBody2D" unique_id=1564845231]
+position = Vector2(0, -208)
+shape = SubResource("WorldBoundaryShape2D_sugp2")
 
 [node name="MarsBar" type="Sprite2D" parent="." unique_id=21452026]
 position = Vector2(-840, -25808)
@@ -75,77 +89,153 @@ position = Vector2(1024, -2296)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("6_tefeu")
 
-[node name="RigidBody2D" type="RigidBody2D" parent="." unique_id=729334941]
-position = Vector2(176, -49200)
-collision_layer = 4
-collision_mask = 4
-
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="RigidBody2D" unique_id=1562930600]
-position = Vector2(-2504, 64)
-shape = SubResource("WorldBoundaryShape2D_tipki")
-
 [node name="rocks" type="Node" parent="." unique_id=1874876672]
 
-[node name="Area2D9" parent="rocks" unique_id=105943765 instance=ExtResource("7_tipki")]
-position = Vector2(2088, -47000)
-scale = Vector2(0.5, 0.5)
+[node name="RigidBody2D" parent="rocks" unique_id=1555940285 instance=ExtResource("4_tbgi4")]
+position = Vector2(5744, -34036)
+rotation = 3.1415925
 
-[node name="Area2D10" parent="rocks" unique_id=66082232 instance=ExtResource("8_85g3d")]
-position = Vector2(704, -46376)
-scale = Vector2(0.5, 0.5)
+[node name="RigidBody2D2" parent="rocks" unique_id=1001237113 instance=ExtResource("4_tbgi4")]
+position = Vector2(2480, -31676)
 
-[node name="Area2D11" parent="rocks" unique_id=1219360370 instance=ExtResource("4_tbgi4")]
-position = Vector2(-476, -44776)
-scale = Vector2(0.5, 0.5)
+[node name="RigidBody2D3" parent="rocks" unique_id=239951101 instance=ExtResource("4_tbgi4")]
+position = Vector2(3880, -32228)
 
-[node name="Area2D12" parent="rocks" unique_id=232177715 instance=ExtResource("8_85g3d")]
-position = Vector2(1600, -47696)
-scale = Vector2(0.5, 0.5)
+[node name="RigidBody2D4" parent="rocks" unique_id=1345312998 instance=ExtResource("4_tbgi4")]
+position = Vector2(2080, -33228)
 
-[node name="Area2D13" parent="rocks" unique_id=342857398 instance=ExtResource("7_tipki")]
-position = Vector2(928, -49200)
-scale = Vector2(0.5, 0.5)
+[node name="RigidBody2D5" parent="rocks" unique_id=1613591933 instance=ExtResource("4_tbgi4")]
+position = Vector2(4192, -33452)
 
-[node name="Area2D14" parent="rocks" unique_id=903196098 instance=ExtResource("7_tipki")]
-position = Vector2(-1240, -47240)
-scale = Vector2(0.5, 0.5)
+[node name="RigidBody2D6" parent="rocks" unique_id=669655834 instance=ExtResource("4_tbgi4")]
+position = Vector2(304, -30924)
 
-[node name="Area2D15" parent="rocks" unique_id=1491492159 instance=ExtResource("8_85g3d")]
-position = Vector2(1008, -47288)
-scale = Vector2(0.5, 0.5)
+[node name="RigidBody2D7" parent="rocks" unique_id=505281481 instance=ExtResource("4_tbgi4")]
+position = Vector2(-352, -32348)
 
-[node name="Area2D16" parent="rocks" unique_id=51614039 instance=ExtResource("7_tipki")]
-position = Vector2(-1040, -46304)
-scale = Vector2(0.5, 0.5)
+[node name="RigidBody2D8" parent="rocks" unique_id=1299620230 instance=ExtResource("4_tbgi4")]
+position = Vector2(3256, -34276)
 
-[node name="Area2D17" parent="rocks" unique_id=200614331 instance=ExtResource("8_85g3d")]
-position = Vector2(-280, -48272)
-scale = Vector2(0.5, 0.5)
+[node name="RigidBody2D9" parent="rocks" unique_id=1196618993 instance=ExtResource("4_tbgi4")]
+position = Vector2(640, -32788)
 
-[node name="Area2D8" parent="rocks" unique_id=1289325874 instance=ExtResource("7_tipki")]
-position = Vector2(-96, -46344)
-scale = Vector2(0.5, 0.5)
+[node name="RigidBody2D10" parent="rocks" unique_id=672633024 instance=ExtResource("4_tbgi4")]
+position = Vector2(-648, -30156)
 
-[node name="Area2D2" parent="rocks" unique_id=1783268741 instance=ExtResource("7_tipki")]
-position = Vector2(1552, -46304)
-scale = Vector2(0.5, 0.5)
+[node name="RigidBody2D11" parent="rocks" unique_id=18326682 instance=ExtResource("4_tbgi4")]
+position = Vector2(-1720, -30780)
 
-[node name="Area2D3" parent="rocks" unique_id=1222300351 instance=ExtResource("8_85g3d")]
-position = Vector2(936, -45008)
-scale = Vector2(0.5, 0.5)
+[node name="RigidBody2D12" parent="rocks" unique_id=1501810071 instance=ExtResource("4_tbgi4")]
+position = Vector2(-1320, -31684)
 
-[node name="Area2D4" parent="rocks" unique_id=175667310 instance=ExtResource("7_tipki")]
-position = Vector2(-936, -49032)
-scale = Vector2(0.5, 0.5)
+[node name="RigidBody2D13" parent="rocks" unique_id=2002671926 instance=ExtResource("4_tbgi4")]
+position = Vector2(1128, -31516)
 
-[node name="Area2D5" parent="rocks" unique_id=2007240752 instance=ExtResource("7_tipki")]
-position = Vector2(312, -47538)
-scale = Vector2(0.5, 0.5)
+[node name="RigidBody2D14" parent="rocks" unique_id=2096821189 instance=ExtResource("7_tipki")]
+position = Vector2(0, -34964)
 
-[node name="Area2D7" parent="rocks" unique_id=156857302 instance=ExtResource("7_tipki")]
-position = Vector2(-328, -47320)
-scale = Vector2(0.5, 0.5)
+[node name="RigidBody2D15" parent="rocks" unique_id=1497375820 instance=ExtResource("7_tipki")]
+position = Vector2(-2080, -33820)
 
-[node name="Area2D6" parent="rocks" unique_id=592900904 instance=ExtResource("7_tipki")]
-position = Vector2(832, -48176)
-scale = Vector2(0.5, 0.5)
+[node name="RigidBody2D16" parent="rocks" unique_id=718343880 instance=ExtResource("4_tbgi4")]
+position = Vector2(-4256, -31628)
+
+[node name="RigidBody2D17" parent="rocks" unique_id=920237953 instance=ExtResource("7_tipki")]
+position = Vector2(-2936, -32164)
+
+[node name="RigidBody2D18" parent="rocks" unique_id=2127742593 instance=ExtResource("7_tipki")]
+position = Vector2(-1768, -32676)
+
+[node name="RigidBody2D19" parent="rocks" unique_id=1184801552 instance=ExtResource("7_tipki")]
+position = Vector2(1904, -34492)
+
+[node name="RigidBody2D20" parent="rocks" unique_id=1938729167 instance=ExtResource("7_tipki")]
+position = Vector2(4832, -34596)
+
+[node name="RigidBody2D21" parent="rocks" unique_id=1215339867 instance=ExtResource("7_tipki")]
+position = Vector2(352, -33868)
+
+[node name="RigidBody2D22" parent="rocks" unique_id=175862761 instance=ExtResource("7_tipki")]
+position = Vector2(1064, -35044)
+
+[node name="RigidBody2D23" parent="rocks" unique_id=604501712 instance=ExtResource("7_tipki")]
+position = Vector2(1920, -31004)
+
+[node name="RigidBody2D24" parent="rocks" unique_id=1288924921 instance=ExtResource("7_tipki")]
+position = Vector2(3128, -33164)
+
+[node name="RigidBody2D25" parent="rocks" unique_id=480260960 instance=ExtResource("7_tipki")]
+position = Vector2(-936, -33500)
+
+[node name="RigidBody2D26" parent="rocks" unique_id=1764599369 instance=ExtResource("7_tipki")]
+position = Vector2(1536, -32452)
+
+[node name="RigidBody2D27" parent="rocks" unique_id=218909284 instance=ExtResource("7_tipki")]
+position = Vector2(-2544, -31236)
+
+[node name="RigidBody2D28" parent="rocks" unique_id=1840903705 instance=ExtResource("8_85g3d")]
+position = Vector2(1128, -30116)
+
+[node name="RigidBody2D29" parent="rocks" unique_id=1551968398 instance=ExtResource("8_85g3d")]
+position = Vector2(2912, -30420)
+
+[node name="RigidBody2D30" parent="rocks" unique_id=1065296795 instance=ExtResource("8_85g3d")]
+position = Vector2(-3544, -30620)
+
+[node name="RigidBody2D31" parent="rocks" unique_id=1043434056 instance=ExtResource("8_85g3d")]
+position = Vector2(5008, -33276)
+
+[node name="RigidBody2D32" parent="rocks" unique_id=1581563314 instance=ExtResource("8_85g3d")]
+position = Vector2(-4096, -32700)
+
+[node name="RigidBody2D33" parent="rocks" unique_id=1841258375 instance=ExtResource("8_85g3d")]
+position = Vector2(4168, -35324)
+
+[node name="RigidBody2D34" parent="rocks" unique_id=648307891 instance=ExtResource("8_85g3d")]
+position = Vector2(-2568, -35052)
+
+[node name="RigidBody2D35" parent="rocks" unique_id=793348733 instance=ExtResource("8_85g3d")]
+position = Vector2(4920, -31996)
+
+[node name="RigidBody2D36" parent="rocks" unique_id=2118901609 instance=ExtResource("8_85g3d")]
+position = Vector2(-1220, -34644)
+
+[node name="RigidBody2D37" parent="rocks" unique_id=969578009 instance=ExtResource("8_85g3d")]
+position = Vector2(2064, -35628)
+
+[node name="RigidBody2D38" parent="rocks" unique_id=1716853082 instance=ExtResource("8_85g3d")]
+position = Vector2(-3672, -33916)
+
+[node name="RigidBody2D39" parent="rocks" unique_id=1298580900 instance=ExtResource("8_85g3d")]
+position = Vector2(1296, -33700)
+
+[node name="RigidBody2D40" parent="rocks" unique_id=396531794 instance=ExtResource("8_85g3d")]
+position = Vector2(-3048, -33180)
+
+[node name="RigidBody2D41" parent="rocks" unique_id=412544361 instance=ExtResource("8_85g3d")]
+position = Vector2(-504, -31308)
+
+[node name="RigidBody2D42" parent="rocks" unique_id=1230813418 instance=ExtResource("8_85g3d")]
+position = Vector2(3144, -35380)
+
+[node name="RigidBody2D43" parent="rocks" unique_id=1749471899 instance=ExtResource("8_85g3d")]
+position = Vector2(3440, -31388)
+
+[node name="stage 1 rock release" type="Node" parent="." unique_id=1477294259]
+
+[node name="Area2D" type="Area2D" parent="stage 1 rock release" unique_id=1057036831]
+position = Vector2(0, -28976)
+collision_layer = 5
+collision_mask = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="stage 1 rock release/Area2D" unique_id=444222522]
+position = Vector2(0, 1561.5)
+shape = SubResource("RectangleShape2D_tipki")
+
+[node name="RigidBody2D" type="RigidBody2D" parent="stage 1 rock release" unique_id=1838045134]
+position = Vector2(0, -28976)
+collision_layer = 5
+collision_mask = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="stage 1 rock release/RigidBody2D" unique_id=1627327196]
+shape = SubResource("SegmentShape2D_85g3d")
