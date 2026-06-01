@@ -51,8 +51,6 @@ texture = ExtResource("3_sugp2")
 
 [node name="StaticBody2D3" type="StaticBody2D" parent="borders" unique_id=1211542648]
 position = Vector2(176, -49200)
-collision_layer = 5
-collision_mask = 5
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="borders/StaticBody2D3" unique_id=1562930600]
 position = Vector2(-2504, 64)
@@ -61,14 +59,13 @@ shape = SubResource("WorldBoundaryShape2D_tipki")
 [node name="StaticBody2D2" type="StaticBody2D" parent="borders" unique_id=204950234]
 position = Vector2(2720, -48208)
 scale = Vector2(0.5, 0.5)
-collision_layer = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="borders/StaticBody2D2" unique_id=154577982]
 shape = SubResource("WorldBoundaryShape2D_85g3d")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="borders" unique_id=2040112948]
-collision_layer = 4
-collision_mask = 4
+collision_layer = 7
+collision_mask = 7
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="borders/StaticBody2D" unique_id=1564845231]
 position = Vector2(0, -208)
@@ -86,134 +83,134 @@ texture = ExtResource("6_tefeu")
 [node name="rocks" type="Node" parent="." unique_id=1874876672]
 
 [node name="RigidBody2D" parent="rocks" unique_id=1555940285 instance=ExtResource("4_tbgi4")]
-position = Vector2(5216, -28400)
+position = Vector2(-23808, -29376)
 rotation = 3.1415925
 
 [node name="RigidBody2D2" parent="rocks" unique_id=1001237113 instance=ExtResource("4_tbgi4")]
-position = Vector2(1952, -26040)
+position = Vector2(-27072, -27016)
 
 [node name="RigidBody2D3" parent="rocks" unique_id=239951101 instance=ExtResource("4_tbgi4")]
-position = Vector2(3352, -26592)
+position = Vector2(-25672, -27568)
 
 [node name="RigidBody2D4" parent="rocks" unique_id=1345312998 instance=ExtResource("4_tbgi4")]
-position = Vector2(1552, -27592)
+position = Vector2(-27472, -28568)
 
 [node name="RigidBody2D5" parent="rocks" unique_id=1613591933 instance=ExtResource("4_tbgi4")]
-position = Vector2(3664, -27816)
+position = Vector2(-25360, -28792)
 
 [node name="RigidBody2D6" parent="rocks" unique_id=669655834 instance=ExtResource("4_tbgi4")]
-position = Vector2(-224, -25288)
+position = Vector2(-29248, -26264)
 
 [node name="RigidBody2D7" parent="rocks" unique_id=505281481 instance=ExtResource("4_tbgi4")]
-position = Vector2(-880, -26712)
+position = Vector2(-29904, -27688)
 
 [node name="RigidBody2D8" parent="rocks" unique_id=1299620230 instance=ExtResource("4_tbgi4")]
-position = Vector2(2728, -28640)
+position = Vector2(-26296, -29616)
 
 [node name="RigidBody2D9" parent="rocks" unique_id=1196618993 instance=ExtResource("4_tbgi4")]
-position = Vector2(112, -27152)
+position = Vector2(-28912, -28128)
 
 [node name="RigidBody2D10" parent="rocks" unique_id=672633024 instance=ExtResource("4_tbgi4")]
-position = Vector2(-1176, -24520)
+position = Vector2(-30136, -25296)
 
 [node name="RigidBody2D11" parent="rocks" unique_id=18326682 instance=ExtResource("4_tbgi4")]
-position = Vector2(-2248, -25144)
+position = Vector2(-31272, -26120)
 
 [node name="RigidBody2D12" parent="rocks" unique_id=1501810071 instance=ExtResource("4_tbgi4")]
-position = Vector2(-1848, -26048)
+position = Vector2(-30872, -27024)
 
 [node name="RigidBody2D13" parent="rocks" unique_id=2002671926 instance=ExtResource("4_tbgi4")]
-position = Vector2(600, -25880)
+position = Vector2(-28424, -26856)
 
 [node name="RigidBody2D14" parent="rocks" unique_id=2096821189 instance=ExtResource("7_tipki")]
-position = Vector2(-528, -29328)
+position = Vector2(-29552, -30304)
 
 [node name="RigidBody2D15" parent="rocks" unique_id=1497375820 instance=ExtResource("7_tipki")]
-position = Vector2(-2608, -28184)
+position = Vector2(-31632, -29160)
 
 [node name="RigidBody2D16" parent="rocks" unique_id=718343880 instance=ExtResource("4_tbgi4")]
-position = Vector2(-4784, -25992)
+position = Vector2(-33808, -26968)
 
 [node name="RigidBody2D17" parent="rocks" unique_id=920237953 instance=ExtResource("7_tipki")]
-position = Vector2(-3464, -26528)
+position = Vector2(-32488, -27504)
 
 [node name="RigidBody2D18" parent="rocks" unique_id=2127742593 instance=ExtResource("7_tipki")]
-position = Vector2(-2296, -27040)
+position = Vector2(-31320, -28016)
 
 [node name="RigidBody2D19" parent="rocks" unique_id=1184801552 instance=ExtResource("7_tipki")]
-position = Vector2(1376, -28856)
+position = Vector2(-27648, -29832)
 
 [node name="RigidBody2D20" parent="rocks" unique_id=1938729167 instance=ExtResource("7_tipki")]
-position = Vector2(4304, -28960)
+position = Vector2(-24720, -29936)
 
 [node name="RigidBody2D21" parent="rocks" unique_id=1215339867 instance=ExtResource("7_tipki")]
-position = Vector2(-176, -28232)
+position = Vector2(-29200, -29208)
 
 [node name="RigidBody2D22" parent="rocks" unique_id=175862761 instance=ExtResource("7_tipki")]
-position = Vector2(536, -29408)
+position = Vector2(-28488, -30384)
 
 [node name="RigidBody2D23" parent="rocks" unique_id=604501712 instance=ExtResource("7_tipki")]
-position = Vector2(1392, -25368)
+position = Vector2(-27632, -26344)
 
 [node name="RigidBody2D24" parent="rocks" unique_id=1288924921 instance=ExtResource("7_tipki")]
-position = Vector2(2600, -27528)
+position = Vector2(-26424, -28504)
 
 [node name="RigidBody2D25" parent="rocks" unique_id=480260960 instance=ExtResource("7_tipki")]
-position = Vector2(-1464, -27864)
+position = Vector2(-30488, -28840)
 
 [node name="RigidBody2D26" parent="rocks" unique_id=1764599369 instance=ExtResource("7_tipki")]
-position = Vector2(1008, -26816)
+position = Vector2(-28016, -27792)
 
 [node name="RigidBody2D27" parent="rocks" unique_id=218909284 instance=ExtResource("7_tipki")]
-position = Vector2(-3072, -25600)
+position = Vector2(-32096, -26576)
 
 [node name="RigidBody2D28" parent="rocks" unique_id=1840903705 instance=ExtResource("8_85g3d")]
-position = Vector2(600, -24480)
+position = Vector2(16, -23464)
 
 [node name="RigidBody2D29" parent="rocks" unique_id=1551968398 instance=ExtResource("8_85g3d")]
-position = Vector2(2384, -24784)
+position = Vector2(-26640, -25760)
 
 [node name="RigidBody2D30" parent="rocks" unique_id=1065296795 instance=ExtResource("8_85g3d")]
-position = Vector2(-4072, -24984)
+position = Vector2(-33096, -25960)
 
 [node name="RigidBody2D31" parent="rocks" unique_id=1043434056 instance=ExtResource("8_85g3d")]
-position = Vector2(4480, -27640)
+position = Vector2(-24544, -28616)
 
 [node name="RigidBody2D32" parent="rocks" unique_id=1581563314 instance=ExtResource("8_85g3d")]
-position = Vector2(-4624, -27064)
+position = Vector2(-33648, -28040)
 
 [node name="RigidBody2D33" parent="rocks" unique_id=1841258375 instance=ExtResource("8_85g3d")]
-position = Vector2(3640, -29688)
+position = Vector2(-25384, -30664)
 
 [node name="RigidBody2D34" parent="rocks" unique_id=648307891 instance=ExtResource("8_85g3d")]
-position = Vector2(-3096, -29416)
+position = Vector2(-32120, -30392)
 
 [node name="RigidBody2D35" parent="rocks" unique_id=793348733 instance=ExtResource("8_85g3d")]
-position = Vector2(4392, -26360)
+position = Vector2(-24632, -27336)
 
 [node name="RigidBody2D36" parent="rocks" unique_id=2118901609 instance=ExtResource("8_85g3d")]
-position = Vector2(-1748, -29008)
+position = Vector2(-30772, -29984)
 
 [node name="RigidBody2D37" parent="rocks" unique_id=969578009 instance=ExtResource("8_85g3d")]
-position = Vector2(1536, -29992)
+position = Vector2(-27488, -30968)
 
 [node name="RigidBody2D38" parent="rocks" unique_id=1716853082 instance=ExtResource("8_85g3d")]
-position = Vector2(-4200, -28280)
+position = Vector2(-33224, -29256)
 
 [node name="RigidBody2D39" parent="rocks" unique_id=1298580900 instance=ExtResource("8_85g3d")]
-position = Vector2(768, -28064)
+position = Vector2(-28256, -29040)
 
 [node name="RigidBody2D40" parent="rocks" unique_id=396531794 instance=ExtResource("8_85g3d")]
-position = Vector2(-3576, -27544)
+position = Vector2(-32600, -28520)
 
 [node name="RigidBody2D41" parent="rocks" unique_id=412544361 instance=ExtResource("8_85g3d")]
-position = Vector2(-1032, -25672)
+position = Vector2(-30056, -26648)
 
 [node name="RigidBody2D42" parent="rocks" unique_id=1230813418 instance=ExtResource("8_85g3d")]
-position = Vector2(2616, -29744)
+position = Vector2(-26408, -30720)
 
 [node name="RigidBody2D43" parent="rocks" unique_id=1749471899 instance=ExtResource("8_85g3d")]
-position = Vector2(2912, -25752)
+position = Vector2(-26112, -26728)
 
 [node name="stage 1 rock release" parent="." unique_id=1542745624 instance=ExtResource("9_85g3d")]
-position = Vector2(0, -22552)
+position = Vector2(0, -24600)

@@ -2,28 +2,29 @@
 
 [ext_resource type="Script" uid="uid://bat1hpkuce8qc" path="res://scripts/rock_releaser.gd" id="1_vu2t6"]
 
-[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_8lfvo"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jmagw"]
+size = Vector2(10240, 130)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vu2t6"]
-size = Vector2(10240, 200)
+size = Vector2(5120, 200)
 
 [node name="stage 1 rock release" type="Node2D" unique_id=1542745624]
 script = ExtResource("1_vu2t6")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=475958620]
 position = Vector2(0, -32)
-collision_layer = 4
-collision_mask = 4
+collision_layer = 12
+collision_mask = 12
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=850323898]
-shape = SubResource("WorldBoundaryShape2D_8lfvo")
+position = Vector2(0, -55)
+shape = SubResource("RectangleShape2D_jmagw")
 
 [node name="Area2D" type="Area2D" parent="." unique_id=1968600087]
-collision_layer = 4
-collision_mask = 4
+position = Vector2(0, 248)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1912449511]
-position = Vector2(0, 88)
+position = Vector2(144, 88)
 shape = SubResource("RectangleShape2D_vu2t6")
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
