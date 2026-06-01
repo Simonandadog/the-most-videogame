@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: ftnlf-bbhmy
+created: 2026-05-23T16:03:28+02:00
