@@ -8,6 +8,7 @@ const JUMP_VELOCITY = -3000.0
 var fuel = 999999999999999
 var distance = 0
 
+
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 
 
@@ -16,6 +17,7 @@ func shoot():
 	var b = bullet_scene.instantiate()
 	get_tree().current_scene.add_child(b)  # world, not player
 	b.global_transform = $Muzzle.global_transform  # real world position
+	#b.global_transform.y = 
 
 
 func _physics_process(delta: float) -> void:
