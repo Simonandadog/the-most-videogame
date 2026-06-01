@@ -19,7 +19,6 @@ collision_mask = 12
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=850323898]
 position = Vector2(0, -55)
 shape = SubResource("RectangleShape2D_jmagw")
-disabled = true
 
 [node name="Area2D" type="Area2D" parent="." unique_id=1968600087]
 position = Vector2(0, 1288)
