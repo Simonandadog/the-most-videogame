@@ -9,6 +9,8 @@
 [ext_resource type="PackedScene" uid="uid://bw7fx3j8wuyp0" path="res://scenes/rock2.tscn" id="7_tipki"]
 [ext_resource type="PackedScene" uid="uid://b4uvhxwxtycpu" path="res://scenes/rock3.tscn" id="8_85g3d"]
 [ext_resource type="PackedScene" uid="uid://chrxk8fau0gbb" path="res://scenes/rock_releaser.tscn" id="9_85g3d"]
+[ext_resource type="Texture2D" uid="uid://cew4t8wbqdcvr" path="res://art/jupier.png" id="10_choun"]
+[ext_resource type="PackedScene" uid="uid://deyqni056repo" path="res://scenes/rock_releaser2.tscn" id="11_ya4ey"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0wfyh"]
 texture = ExtResource("1_o5qli")
@@ -83,177 +85,534 @@ texture = ExtResource("6_tefeu")
 [node name="rocks" type="Node" parent="." unique_id=1874876672]
 
 [node name="RigidBody2D" parent="rocks" unique_id=1555940285 instance=ExtResource("4_tbgi4")]
-position = Vector2(4976, -27848)
+position = Vector2(4928, -30024)
 rotation = 3.1415925
 can_sleep = true
 
 [node name="RigidBody2D2" parent="rocks" unique_id=1001237113 instance=ExtResource("4_tbgi4")]
-position = Vector2(1712, -25488)
+position = Vector2(1664, -27664)
 can_sleep = true
 
 [node name="RigidBody2D3" parent="rocks" unique_id=239951101 instance=ExtResource("4_tbgi4")]
-position = Vector2(3112, -26040)
+position = Vector2(3064, -28216)
 can_sleep = true
 
 [node name="RigidBody2D4" parent="rocks" unique_id=1345312998 instance=ExtResource("4_tbgi4")]
-position = Vector2(1312, -27040)
+position = Vector2(1264, -29216)
 can_sleep = true
 
 [node name="RigidBody2D5" parent="rocks" unique_id=1613591933 instance=ExtResource("4_tbgi4")]
-position = Vector2(3424, -27264)
+position = Vector2(3376, -29440)
 can_sleep = true
 
 [node name="RigidBody2D6" parent="rocks" unique_id=669655834 instance=ExtResource("4_tbgi4")]
-position = Vector2(-464, -24736)
+position = Vector2(-512, -26912)
 can_sleep = true
 
 [node name="RigidBody2D7" parent="rocks" unique_id=505281481 instance=ExtResource("4_tbgi4")]
-position = Vector2(-1120, -26160)
+position = Vector2(-1168, -28336)
 can_sleep = true
 
 [node name="RigidBody2D8" parent="rocks" unique_id=1299620230 instance=ExtResource("4_tbgi4")]
-position = Vector2(2488, -28088)
+position = Vector2(2440, -30264)
 can_sleep = true
 
 [node name="RigidBody2D9" parent="rocks" unique_id=1196618993 instance=ExtResource("4_tbgi4")]
-position = Vector2(-128, -26600)
+position = Vector2(-176, -28776)
 can_sleep = true
 
 [node name="RigidBody2D10" parent="rocks" unique_id=672633024 instance=ExtResource("4_tbgi4")]
-position = Vector2(-1352, -23768)
+position = Vector2(-1400, -25944)
 can_sleep = true
 
 [node name="RigidBody2D11" parent="rocks" unique_id=18326682 instance=ExtResource("4_tbgi4")]
-position = Vector2(-2488, -24592)
+position = Vector2(-2536, -26768)
 can_sleep = true
 
 [node name="RigidBody2D12" parent="rocks" unique_id=1501810071 instance=ExtResource("4_tbgi4")]
-position = Vector2(-2088, -25496)
+position = Vector2(-2136, -27672)
 can_sleep = true
 
 [node name="RigidBody2D13" parent="rocks" unique_id=2002671926 instance=ExtResource("4_tbgi4")]
-position = Vector2(360, -25328)
+position = Vector2(312, -27504)
 can_sleep = true
 
 [node name="RigidBody2D14" parent="rocks" unique_id=2096821189 instance=ExtResource("7_tipki")]
-position = Vector2(-768, -28776)
+position = Vector2(-816, -30952)
 can_sleep = true
 
 [node name="RigidBody2D15" parent="rocks" unique_id=1497375820 instance=ExtResource("7_tipki")]
-position = Vector2(-2848, -27632)
+position = Vector2(-2896, -29808)
 can_sleep = true
 
 [node name="RigidBody2D16" parent="rocks" unique_id=718343880 instance=ExtResource("4_tbgi4")]
-position = Vector2(-5024, -25440)
+position = Vector2(-5072, -27616)
 can_sleep = true
 
 [node name="RigidBody2D17" parent="rocks" unique_id=920237953 instance=ExtResource("7_tipki")]
-position = Vector2(-3704, -25976)
+position = Vector2(-3752, -28152)
 can_sleep = true
 
 [node name="RigidBody2D18" parent="rocks" unique_id=2127742593 instance=ExtResource("7_tipki")]
-position = Vector2(-2536, -26488)
+position = Vector2(-2584, -28664)
 can_sleep = true
 
 [node name="RigidBody2D19" parent="rocks" unique_id=1184801552 instance=ExtResource("7_tipki")]
-position = Vector2(1136, -28304)
+position = Vector2(1088, -30480)
 can_sleep = true
 
 [node name="RigidBody2D20" parent="rocks" unique_id=1938729167 instance=ExtResource("7_tipki")]
-position = Vector2(4064, -28408)
+position = Vector2(4016, -30584)
 can_sleep = true
 
 [node name="RigidBody2D21" parent="rocks" unique_id=1215339867 instance=ExtResource("7_tipki")]
-position = Vector2(-416, -27680)
+position = Vector2(-464, -29856)
 can_sleep = true
 
 [node name="RigidBody2D22" parent="rocks" unique_id=175862761 instance=ExtResource("7_tipki")]
-position = Vector2(296, -28856)
+position = Vector2(248, -31032)
 can_sleep = true
 
 [node name="RigidBody2D23" parent="rocks" unique_id=604501712 instance=ExtResource("7_tipki")]
-position = Vector2(1152, -24816)
+position = Vector2(1104, -26992)
 can_sleep = true
 
 [node name="RigidBody2D24" parent="rocks" unique_id=1288924921 instance=ExtResource("7_tipki")]
-position = Vector2(2360, -26976)
+position = Vector2(2312, -29152)
 can_sleep = true
 
 [node name="RigidBody2D25" parent="rocks" unique_id=480260960 instance=ExtResource("7_tipki")]
-position = Vector2(-1704, -27312)
+position = Vector2(-1752, -29488)
 can_sleep = true
 
 [node name="RigidBody2D26" parent="rocks" unique_id=1764599369 instance=ExtResource("7_tipki")]
-position = Vector2(768, -26264)
+position = Vector2(720, -28440)
 can_sleep = true
 
 [node name="RigidBody2D27" parent="rocks" unique_id=218909284 instance=ExtResource("7_tipki")]
-position = Vector2(-3312, -25048)
+position = Vector2(-3360, -27224)
 can_sleep = true
 
 [node name="RigidBody2D28" parent="rocks" unique_id=1840903705 instance=ExtResource("8_85g3d")]
-position = Vector2(16, -23464)
+position = Vector2(-32, -25640)
 can_sleep = true
 
 [node name="RigidBody2D29" parent="rocks" unique_id=1551968398 instance=ExtResource("8_85g3d")]
-position = Vector2(2144, -24232)
+position = Vector2(2096, -26408)
 can_sleep = true
 
 [node name="RigidBody2D30" parent="rocks" unique_id=1065296795 instance=ExtResource("8_85g3d")]
-position = Vector2(-4312, -24432)
+position = Vector2(-4360, -26608)
 can_sleep = true
 
 [node name="RigidBody2D31" parent="rocks" unique_id=1043434056 instance=ExtResource("8_85g3d")]
-position = Vector2(4240, -27088)
+position = Vector2(4192, -29264)
 can_sleep = true
 
 [node name="RigidBody2D32" parent="rocks" unique_id=1581563314 instance=ExtResource("8_85g3d")]
-position = Vector2(-4864, -26512)
+position = Vector2(-4912, -28688)
 can_sleep = true
 
 [node name="RigidBody2D33" parent="rocks" unique_id=1841258375 instance=ExtResource("8_85g3d")]
-position = Vector2(3400, -29136)
+position = Vector2(3352, -31312)
 can_sleep = true
 
 [node name="RigidBody2D34" parent="rocks" unique_id=648307891 instance=ExtResource("8_85g3d")]
-position = Vector2(-3336, -28864)
+position = Vector2(-3384, -31040)
 can_sleep = true
 
 [node name="RigidBody2D35" parent="rocks" unique_id=793348733 instance=ExtResource("8_85g3d")]
-position = Vector2(4152, -25808)
+position = Vector2(4104, -27984)
 can_sleep = true
 
 [node name="RigidBody2D36" parent="rocks" unique_id=2118901609 instance=ExtResource("8_85g3d")]
-position = Vector2(-1988, -28456)
+position = Vector2(-2036, -30632)
 can_sleep = true
 
 [node name="RigidBody2D37" parent="rocks" unique_id=969578009 instance=ExtResource("8_85g3d")]
-position = Vector2(1296, -29440)
+position = Vector2(1248, -31616)
 can_sleep = true
 
 [node name="RigidBody2D38" parent="rocks" unique_id=1716853082 instance=ExtResource("8_85g3d")]
-position = Vector2(-4440, -27728)
+position = Vector2(-4488, -29904)
 can_sleep = true
 
 [node name="RigidBody2D39" parent="rocks" unique_id=1298580900 instance=ExtResource("8_85g3d")]
-position = Vector2(528, -27512)
+position = Vector2(480, -29688)
 can_sleep = true
 
 [node name="RigidBody2D40" parent="rocks" unique_id=396531794 instance=ExtResource("8_85g3d")]
-position = Vector2(-3816, -26992)
+position = Vector2(-3864, -29168)
 can_sleep = true
 
 [node name="RigidBody2D41" parent="rocks" unique_id=412544361 instance=ExtResource("8_85g3d")]
-position = Vector2(-1272, -25120)
+position = Vector2(-1320, -27296)
 can_sleep = true
 
 [node name="RigidBody2D42" parent="rocks" unique_id=1230813418 instance=ExtResource("8_85g3d")]
-position = Vector2(2376, -29192)
+position = Vector2(2328, -31368)
 can_sleep = true
 
 [node name="RigidBody2D43" parent="rocks" unique_id=1749471899 instance=ExtResource("8_85g3d")]
-position = Vector2(2672, -25200)
+position = Vector2(2624, -27376)
 can_sleep = true
 
 [node name="stage 1 rock release" parent="." unique_id=1400110532 instance=ExtResource("9_85g3d")]
-position = Vector2(8, -22512)
+position = Vector2(8, -25224)
+
+[node name="rocks2" type="Node" parent="." unique_id=1526472066]
+
+[node name="RigidBody2D" parent="rocks2" unique_id=1536240519 instance=ExtResource("4_tbgi4")]
+position = Vector2(4928, -55856)
+rotation = 3.1415925
+can_sleep = true
+
+[node name="RigidBody2D2" parent="rocks2" unique_id=1054421871 instance=ExtResource("4_tbgi4")]
+position = Vector2(1664, -53496)
+can_sleep = true
+
+[node name="RigidBody2D3" parent="rocks2" unique_id=1752015668 instance=ExtResource("4_tbgi4")]
+position = Vector2(3064, -54048)
+can_sleep = true
+
+[node name="RigidBody2D4" parent="rocks2" unique_id=1062166756 instance=ExtResource("4_tbgi4")]
+position = Vector2(1264, -55048)
+can_sleep = true
+
+[node name="RigidBody2D5" parent="rocks2" unique_id=2142293333 instance=ExtResource("4_tbgi4")]
+position = Vector2(3376, -55272)
+can_sleep = true
+
+[node name="RigidBody2D6" parent="rocks2" unique_id=1943350326 instance=ExtResource("4_tbgi4")]
+position = Vector2(-512, -52744)
+can_sleep = true
+
+[node name="RigidBody2D7" parent="rocks2" unique_id=1031722319 instance=ExtResource("4_tbgi4")]
+position = Vector2(-1168, -54168)
+can_sleep = true
+
+[node name="RigidBody2D8" parent="rocks2" unique_id=2129846365 instance=ExtResource("4_tbgi4")]
+position = Vector2(2440, -56096)
+can_sleep = true
+
+[node name="RigidBody2D9" parent="rocks2" unique_id=2039730817 instance=ExtResource("4_tbgi4")]
+position = Vector2(-176, -54608)
+can_sleep = true
+
+[node name="RigidBody2D10" parent="rocks2" unique_id=1063672451 instance=ExtResource("4_tbgi4")]
+position = Vector2(-1400, -51776)
+can_sleep = true
+
+[node name="RigidBody2D11" parent="rocks2" unique_id=1876151134 instance=ExtResource("4_tbgi4")]
+position = Vector2(-2536, -52600)
+can_sleep = true
+
+[node name="RigidBody2D12" parent="rocks2" unique_id=241616446 instance=ExtResource("4_tbgi4")]
+position = Vector2(-2136, -53504)
+can_sleep = true
+
+[node name="RigidBody2D13" parent="rocks2" unique_id=1552331194 instance=ExtResource("4_tbgi4")]
+position = Vector2(312, -53336)
+can_sleep = true
+
+[node name="RigidBody2D14" parent="rocks2" unique_id=910770286 instance=ExtResource("7_tipki")]
+position = Vector2(-816, -56784)
+can_sleep = true
+
+[node name="RigidBody2D15" parent="rocks2" unique_id=1447057785 instance=ExtResource("7_tipki")]
+position = Vector2(-2896, -55640)
+can_sleep = true
+
+[node name="RigidBody2D16" parent="rocks2" unique_id=565233278 instance=ExtResource("4_tbgi4")]
+position = Vector2(-5072, -53448)
+can_sleep = true
+
+[node name="RigidBody2D17" parent="rocks2" unique_id=1915834376 instance=ExtResource("7_tipki")]
+position = Vector2(-3752, -53984)
+can_sleep = true
+
+[node name="RigidBody2D18" parent="rocks2" unique_id=1784524061 instance=ExtResource("7_tipki")]
+position = Vector2(-2584, -54496)
+can_sleep = true
+
+[node name="RigidBody2D19" parent="rocks2" unique_id=2093141137 instance=ExtResource("7_tipki")]
+position = Vector2(1088, -56312)
+can_sleep = true
+
+[node name="RigidBody2D20" parent="rocks2" unique_id=747703631 instance=ExtResource("7_tipki")]
+position = Vector2(4016, -56416)
+can_sleep = true
+
+[node name="RigidBody2D21" parent="rocks2" unique_id=160264174 instance=ExtResource("7_tipki")]
+position = Vector2(-464, -55688)
+can_sleep = true
+
+[node name="RigidBody2D22" parent="rocks2" unique_id=957110743 instance=ExtResource("7_tipki")]
+position = Vector2(248, -56864)
+can_sleep = true
+
+[node name="RigidBody2D23" parent="rocks2" unique_id=324814696 instance=ExtResource("7_tipki")]
+position = Vector2(1104, -52824)
+can_sleep = true
+
+[node name="RigidBody2D24" parent="rocks2" unique_id=327270474 instance=ExtResource("7_tipki")]
+position = Vector2(2312, -54984)
+can_sleep = true
+
+[node name="RigidBody2D25" parent="rocks2" unique_id=1333859858 instance=ExtResource("7_tipki")]
+position = Vector2(-1752, -55320)
+can_sleep = true
+
+[node name="RigidBody2D26" parent="rocks2" unique_id=666619009 instance=ExtResource("7_tipki")]
+position = Vector2(720, -54272)
+can_sleep = true
+
+[node name="RigidBody2D27" parent="rocks2" unique_id=2137280486 instance=ExtResource("7_tipki")]
+position = Vector2(-3360, -53056)
+can_sleep = true
+
+[node name="RigidBody2D28" parent="rocks2" unique_id=1190749160 instance=ExtResource("8_85g3d")]
+position = Vector2(-32, -51472)
+can_sleep = true
+
+[node name="RigidBody2D29" parent="rocks2" unique_id=620920726 instance=ExtResource("8_85g3d")]
+position = Vector2(2096, -52240)
+can_sleep = true
+
+[node name="RigidBody2D30" parent="rocks2" unique_id=1791401511 instance=ExtResource("8_85g3d")]
+position = Vector2(-4360, -52440)
+can_sleep = true
+
+[node name="RigidBody2D31" parent="rocks2" unique_id=1135118963 instance=ExtResource("8_85g3d")]
+position = Vector2(4192, -55096)
+can_sleep = true
+
+[node name="RigidBody2D32" parent="rocks2" unique_id=1135588349 instance=ExtResource("8_85g3d")]
+position = Vector2(-4912, -54520)
+can_sleep = true
+
+[node name="RigidBody2D33" parent="rocks2" unique_id=857989516 instance=ExtResource("8_85g3d")]
+position = Vector2(3352, -57144)
+can_sleep = true
+
+[node name="RigidBody2D34" parent="rocks2" unique_id=712460213 instance=ExtResource("8_85g3d")]
+position = Vector2(-3384, -56872)
+can_sleep = true
+
+[node name="RigidBody2D35" parent="rocks2" unique_id=698626714 instance=ExtResource("8_85g3d")]
+position = Vector2(4104, -53816)
+can_sleep = true
+
+[node name="RigidBody2D36" parent="rocks2" unique_id=833381963 instance=ExtResource("8_85g3d")]
+position = Vector2(-2036, -56464)
+can_sleep = true
+
+[node name="RigidBody2D37" parent="rocks2" unique_id=978835531 instance=ExtResource("8_85g3d")]
+position = Vector2(1248, -57448)
+can_sleep = true
+
+[node name="RigidBody2D38" parent="rocks2" unique_id=921159320 instance=ExtResource("8_85g3d")]
+position = Vector2(-4488, -55736)
+can_sleep = true
+
+[node name="RigidBody2D39" parent="rocks2" unique_id=1833279684 instance=ExtResource("8_85g3d")]
+position = Vector2(480, -55520)
+can_sleep = true
+
+[node name="RigidBody2D40" parent="rocks2" unique_id=131178836 instance=ExtResource("8_85g3d")]
+position = Vector2(-3864, -55000)
+can_sleep = true
+
+[node name="RigidBody2D41" parent="rocks2" unique_id=1287455942 instance=ExtResource("8_85g3d")]
+position = Vector2(-1320, -53128)
+can_sleep = true
+
+[node name="RigidBody2D42" parent="rocks2" unique_id=617815266 instance=ExtResource("8_85g3d")]
+position = Vector2(2328, -57200)
+can_sleep = true
+
+[node name="RigidBody2D43" parent="rocks2" unique_id=1536975971 instance=ExtResource("8_85g3d")]
+position = Vector2(2624, -53208)
+can_sleep = true
+
+[node name="Jupier" type="Sprite2D" parent="." unique_id=941837046]
+position = Vector2(-1696, -47320)
+texture = ExtResource("10_choun")
+
+[node name="rocks3" type="Node" parent="." unique_id=2142934258]
+
+[node name="RigidBody2D" parent="rocks3" unique_id=1077006526 instance=ExtResource("4_tbgi4")]
+position = Vector2(5032, -64712)
+rotation = 3.1415925
+can_sleep = true
+
+[node name="RigidBody2D2" parent="rocks3" unique_id=48799805 instance=ExtResource("4_tbgi4")]
+position = Vector2(1768, -62352)
+can_sleep = true
+
+[node name="RigidBody2D3" parent="rocks3" unique_id=1359505777 instance=ExtResource("4_tbgi4")]
+position = Vector2(3168, -62904)
+can_sleep = true
+
+[node name="RigidBody2D4" parent="rocks3" unique_id=391453738 instance=ExtResource("4_tbgi4")]
+position = Vector2(1368, -63904)
+can_sleep = true
+
+[node name="RigidBody2D5" parent="rocks3" unique_id=1900172597 instance=ExtResource("4_tbgi4")]
+position = Vector2(3480, -64128)
+can_sleep = true
+
+[node name="RigidBody2D6" parent="rocks3" unique_id=2013238148 instance=ExtResource("4_tbgi4")]
+position = Vector2(-408, -61600)
+can_sleep = true
+
+[node name="RigidBody2D7" parent="rocks3" unique_id=870579593 instance=ExtResource("4_tbgi4")]
+position = Vector2(-1064, -63024)
+can_sleep = true
+
+[node name="RigidBody2D8" parent="rocks3" unique_id=428932380 instance=ExtResource("4_tbgi4")]
+position = Vector2(2544, -64952)
+can_sleep = true
+
+[node name="RigidBody2D9" parent="rocks3" unique_id=1182334964 instance=ExtResource("4_tbgi4")]
+position = Vector2(-72, -63464)
+can_sleep = true
+
+[node name="RigidBody2D10" parent="rocks3" unique_id=194466310 instance=ExtResource("4_tbgi4")]
+position = Vector2(-1296, -60632)
+can_sleep = true
+
+[node name="RigidBody2D11" parent="rocks3" unique_id=455684469 instance=ExtResource("4_tbgi4")]
+position = Vector2(-2432, -61456)
+can_sleep = true
+
+[node name="RigidBody2D12" parent="rocks3" unique_id=1407008373 instance=ExtResource("4_tbgi4")]
+position = Vector2(-2032, -62360)
+can_sleep = true
+
+[node name="RigidBody2D13" parent="rocks3" unique_id=1466083624 instance=ExtResource("4_tbgi4")]
+position = Vector2(416, -62192)
+can_sleep = true
+
+[node name="RigidBody2D14" parent="rocks3" unique_id=1259089713 instance=ExtResource("7_tipki")]
+position = Vector2(-712, -65640)
+can_sleep = true
+
+[node name="RigidBody2D15" parent="rocks3" unique_id=1138748503 instance=ExtResource("7_tipki")]
+position = Vector2(-2792, -64496)
+can_sleep = true
+
+[node name="RigidBody2D16" parent="rocks3" unique_id=1779872264 instance=ExtResource("4_tbgi4")]
+position = Vector2(-4968, -62304)
+can_sleep = true
+
+[node name="RigidBody2D17" parent="rocks3" unique_id=571229700 instance=ExtResource("7_tipki")]
+position = Vector2(-3648, -62840)
+can_sleep = true
+
+[node name="RigidBody2D18" parent="rocks3" unique_id=622222848 instance=ExtResource("7_tipki")]
+position = Vector2(-2480, -63352)
+can_sleep = true
+
+[node name="RigidBody2D19" parent="rocks3" unique_id=1568724934 instance=ExtResource("7_tipki")]
+position = Vector2(1192, -65168)
+can_sleep = true
+
+[node name="RigidBody2D20" parent="rocks3" unique_id=1144100407 instance=ExtResource("7_tipki")]
+position = Vector2(4120, -65272)
+can_sleep = true
+
+[node name="RigidBody2D21" parent="rocks3" unique_id=1028506153 instance=ExtResource("7_tipki")]
+position = Vector2(-360, -64544)
+can_sleep = true
+
+[node name="RigidBody2D22" parent="rocks3" unique_id=247154339 instance=ExtResource("7_tipki")]
+position = Vector2(352, -65720)
+can_sleep = true
+
+[node name="RigidBody2D23" parent="rocks3" unique_id=162480542 instance=ExtResource("7_tipki")]
+position = Vector2(1208, -61680)
+can_sleep = true
+
+[node name="RigidBody2D24" parent="rocks3" unique_id=928875269 instance=ExtResource("7_tipki")]
+position = Vector2(2416, -63840)
+can_sleep = true
+
+[node name="RigidBody2D25" parent="rocks3" unique_id=881600001 instance=ExtResource("7_tipki")]
+position = Vector2(-1648, -64176)
+can_sleep = true
+
+[node name="RigidBody2D26" parent="rocks3" unique_id=335124707 instance=ExtResource("7_tipki")]
+position = Vector2(824, -63128)
+can_sleep = true
+
+[node name="RigidBody2D27" parent="rocks3" unique_id=959540665 instance=ExtResource("7_tipki")]
+position = Vector2(-3256, -61912)
+can_sleep = true
+
+[node name="RigidBody2D28" parent="rocks3" unique_id=1090978236 instance=ExtResource("8_85g3d")]
+position = Vector2(72, -60328)
+can_sleep = true
+
+[node name="RigidBody2D29" parent="rocks3" unique_id=1786700310 instance=ExtResource("8_85g3d")]
+position = Vector2(2200, -61096)
+can_sleep = true
+
+[node name="RigidBody2D30" parent="rocks3" unique_id=1249867708 instance=ExtResource("8_85g3d")]
+position = Vector2(-4256, -61296)
+can_sleep = true
+
+[node name="RigidBody2D31" parent="rocks3" unique_id=1378533547 instance=ExtResource("8_85g3d")]
+position = Vector2(4296, -63952)
+can_sleep = true
+
+[node name="RigidBody2D32" parent="rocks3" unique_id=1991203103 instance=ExtResource("8_85g3d")]
+position = Vector2(-4808, -63376)
+can_sleep = true
+
+[node name="RigidBody2D33" parent="rocks3" unique_id=1868151778 instance=ExtResource("8_85g3d")]
+position = Vector2(3456, -66000)
+can_sleep = true
+
+[node name="RigidBody2D34" parent="rocks3" unique_id=52104754 instance=ExtResource("8_85g3d")]
+position = Vector2(-3280, -65728)
+can_sleep = true
+
+[node name="RigidBody2D35" parent="rocks3" unique_id=1264170758 instance=ExtResource("8_85g3d")]
+position = Vector2(4208, -62672)
+can_sleep = true
+
+[node name="RigidBody2D36" parent="rocks3" unique_id=463659556 instance=ExtResource("8_85g3d")]
+position = Vector2(-1932, -65320)
+can_sleep = true
+
+[node name="RigidBody2D37" parent="rocks3" unique_id=871309433 instance=ExtResource("8_85g3d")]
+position = Vector2(1352, -66304)
+can_sleep = true
+
+[node name="RigidBody2D38" parent="rocks3" unique_id=1054031310 instance=ExtResource("8_85g3d")]
+position = Vector2(-4384, -64592)
+can_sleep = true
+
+[node name="RigidBody2D39" parent="rocks3" unique_id=304804905 instance=ExtResource("8_85g3d")]
+position = Vector2(584, -64376)
+can_sleep = true
+
+[node name="RigidBody2D40" parent="rocks3" unique_id=617133826 instance=ExtResource("8_85g3d")]
+position = Vector2(-3760, -63856)
+can_sleep = true
+
+[node name="RigidBody2D41" parent="rocks3" unique_id=2139057706 instance=ExtResource("8_85g3d")]
+position = Vector2(-1216, -61984)
+can_sleep = true
+
+[node name="RigidBody2D42" parent="rocks3" unique_id=265901017 instance=ExtResource("8_85g3d")]
+position = Vector2(2432, -66056)
+can_sleep = true
+
+[node name="RigidBody2D43" parent="rocks3" unique_id=2109558211 instance=ExtResource("8_85g3d")]
+position = Vector2(2728, -62064)
+can_sleep = true
+
+[node name="stage 1 rock release2" parent="." unique_id=1542745624 instance=ExtResource("11_ya4ey")]
+position = Vector2(80, -50560)
