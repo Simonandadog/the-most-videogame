@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://chrxk8fau0gbb"]
 
-[ext_resource type="Script" uid="uid://bat1hpkuce8qc" path="res://scripts/rock_releaser.gd" id="1_vu2t6"]
+[ext_resource type="Script" uid="uid://ccehdrm5t72ek" path="res://scripts/rock_releaser2.gd" id="1_os5c5"]
 [ext_resource type="PackedScene" uid="uid://be325u4t0xwic" path="res://scenes/rock1_try2.tscn" id="2_os5c5"]
 [ext_resource type="PackedScene" uid="uid://bw7fx3j8wuyp0" path="res://scenes/rock2.tscn" id="3_hc6ta"]
 [ext_resource type="PackedScene" uid="uid://b4uvhxwxtycpu" path="res://scenes/rock3.tscn" id="4_78iw5"]
@@ -12,7 +12,7 @@ size = Vector2(10240, 130)
 size = Vector2(5120, 200)
 
 [node name="stage 1 rock release" type="Node2D" unique_id=1542745624]
-script = ExtResource("1_vu2t6")
+script = ExtResource("1_os5c5")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=475958620]
 position = Vector2(0, -32)
