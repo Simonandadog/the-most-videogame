@@ -573,7 +573,7 @@ rotation = 2.2222066
 can_sleep = true
 
 [node name="RigidBody2D28" parent="rocks2" unique_id=1190749160 instance=ExtResource("8_85g3d")]
-position = Vector2(-32, -58624)
+position = Vector2(-32, -58680.004)
 rotation = 2.2222066
 can_sleep = true
 
