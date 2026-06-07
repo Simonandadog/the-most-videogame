@@ -14,6 +14,7 @@
 [ext_resource type="PackedScene" uid="uid://deyqni056repo" path="res://scenes/rock_releaser2.tscn" id="11_ya4ey"]
 [ext_resource type="PackedScene" uid="uid://uu6eh8iesrj0" path="res://scenes/rock_releaser3.tscn" id="13_a8y0u"]
 [ext_resource type="Texture2D" uid="uid://dqv0ui22p5m05" path="res://art/your ass.png" id="13_trceg"]
+[ext_resource type="Texture2D" uid="uid://cdaumnylasvf4" path="res://art/neptune.png" id="15_jkv2x"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0wfyh"]
 texture = ExtResource("1_o5qli")
@@ -1018,230 +1019,898 @@ position = Vector2(-1416, -119760)
 [node name="RigidBody2D33" parent="stage 3/roccs" unique_id=1739923780 instance=ExtResource("8_85g3d")]
 position = Vector2(656, -119328)
 
-[node name="RigidBody2D" parent="." unique_id=273334501 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D34" parent="stage 3/roccs" unique_id=273334501 instance=ExtResource("4_tbgi4")]
 position = Vector2(-4064, -124384)
 
-[node name="RigidBody2D2" parent="." unique_id=1067201007 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D35" parent="stage 3/roccs" unique_id=1067201007 instance=ExtResource("7_tipki")]
 position = Vector2(-2824, -124664)
 
-[node name="RigidBody2D3" parent="." unique_id=1743550170 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D36" parent="stage 3/roccs" unique_id=1743550170 instance=ExtResource("8_85g3d")]
 position = Vector2(-1872, -123936)
 
-[node name="RigidBody2D4" parent="." unique_id=2023033750 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D37" parent="stage 3/roccs" unique_id=2023033750 instance=ExtResource("7_tipki")]
 position = Vector2(-816, -124232)
 
-[node name="RigidBody2D5" parent="." unique_id=1756478342 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D38" parent="stage 3/roccs" unique_id=1756478342 instance=ExtResource("4_tbgi4")]
 position = Vector2(352, -124088)
 
-[node name="RigidBody2D6" parent="." unique_id=2078049406 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D39" parent="stage 3/roccs" unique_id=2078049406 instance=ExtResource("8_85g3d")]
 position = Vector2(1496, -123848)
 
-[node name="RigidBody2D7" parent="." unique_id=589692406 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D40" parent="stage 3/roccs" unique_id=589692406 instance=ExtResource("7_tipki")]
 position = Vector2(2456, -123504)
 
-[node name="RigidBody2D8" parent="." unique_id=1134082432 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D41" parent="stage 3/roccs" unique_id=1134082432 instance=ExtResource("4_tbgi4")]
 position = Vector2(3600, -123648)
 
-[node name="RigidBody2D9" parent="." unique_id=1459726904 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D42" parent="stage 3/roccs" unique_id=1459726904 instance=ExtResource("7_tipki")]
 position = Vector2(4424, -123296)
 
-[node name="RigidBody2D10" parent="." unique_id=1811621541 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D43" parent="stage 3/roccs" unique_id=1811621541 instance=ExtResource("4_tbgi4")]
 position = Vector2(-3704, -125520)
 
-[node name="RigidBody2D11" parent="." unique_id=1053942877 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D44" parent="stage 3/roccs" unique_id=1053942877 instance=ExtResource("7_tipki")]
 position = Vector2(-2552, -125704)
 
-[node name="RigidBody2D12" parent="." unique_id=110557836 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D45" parent="stage 3/roccs" unique_id=110557836 instance=ExtResource("8_85g3d")]
 position = Vector2(-1628, -125048)
 
-[node name="RigidBody2D13" parent="." unique_id=1349162783 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D46" parent="stage 3/roccs" unique_id=1349162783 instance=ExtResource("7_tipki")]
 position = Vector2(-384, -125336)
 
-[node name="RigidBody2D14" parent="." unique_id=753748039 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D47" parent="stage 3/roccs" unique_id=753748039 instance=ExtResource("4_tbgi4")]
 position = Vector2(576, -125104)
 
-[node name="RigidBody2D15" parent="." unique_id=1887225689 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D48" parent="stage 3/roccs" unique_id=1887225689 instance=ExtResource("7_tipki")]
 position = Vector2(1520, -124880)
 
-[node name="RigidBody2D16" parent="." unique_id=2044865795 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D49" parent="stage 3/roccs" unique_id=2044865795 instance=ExtResource("8_85g3d")]
 position = Vector2(2544, -124552)
 
-[node name="RigidBody2D17" parent="." unique_id=354780019 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D50" parent="stage 3/roccs" unique_id=354780019 instance=ExtResource("7_tipki")]
 position = Vector2(3616, -124784)
 
-[node name="RigidBody2D18" parent="." unique_id=720292009 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D51" parent="stage 3/roccs" unique_id=720292009 instance=ExtResource("4_tbgi4")]
 position = Vector2(4432, -124176)
 
-[node name="RigidBody2D19" parent="." unique_id=1665145800 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D52" parent="stage 3/roccs" unique_id=1665145800 instance=ExtResource("7_tipki")]
 position = Vector2(4432, -125600)
 
-[node name="RigidBody2D20" parent="." unique_id=138680914 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D53" parent="stage 3/roccs" unique_id=138680914 instance=ExtResource("8_85g3d")]
 position = Vector2(3160, -125880)
 
-[node name="RigidBody2D21" parent="." unique_id=1955633310 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D54" parent="stage 3/roccs" unique_id=1955633310 instance=ExtResource("7_tipki")]
 position = Vector2(2160, -125720)
 
-[node name="RigidBody2D22" parent="." unique_id=1586809092 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D55" parent="stage 3/roccs" unique_id=1586809092 instance=ExtResource("8_85g3d")]
 position = Vector2(1104, -126032)
 
-[node name="RigidBody2D23" parent="." unique_id=722771588 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D56" parent="stage 3/roccs" unique_id=722771588 instance=ExtResource("7_tipki")]
 position = Vector2(176, -126304)
 
-[node name="RigidBody2D24" parent="." unique_id=1439641919 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D57" parent="stage 3/roccs" unique_id=1439641919 instance=ExtResource("4_tbgi4")]
 position = Vector2(-1056, -126136)
 
-[node name="RigidBody2D25" parent="." unique_id=1301945181 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D58" parent="stage 3/roccs" unique_id=1301945181 instance=ExtResource("7_tipki")]
 position = Vector2(-1944, -126696)
 
-[node name="RigidBody2D26" parent="." unique_id=1035037878 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D59" parent="stage 3/roccs" unique_id=1035037878 instance=ExtResource("8_85g3d")]
 position = Vector2(-4456, -126072)
 
-[node name="RigidBody2D27" parent="." unique_id=1467034061 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D60" parent="stage 3/roccs" unique_id=1467034061 instance=ExtResource("7_tipki")]
 position = Vector2(-3408, -126648)
 
-[node name="RigidBody2D28" parent="." unique_id=1154533346 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D61" parent="stage 3/roccs" unique_id=1154533346 instance=ExtResource("4_tbgi4")]
 position = Vector2(-4232, -127184)
 
-[node name="RigidBody2D29" parent="." unique_id=1180575298 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D62" parent="stage 3/roccs" unique_id=1180575298 instance=ExtResource("7_tipki")]
 position = Vector2(-2760, -127520)
 
-[node name="RigidBody2D30" parent="." unique_id=226009755 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D63" parent="stage 3/roccs" unique_id=226009755 instance=ExtResource("8_85g3d")]
 position = Vector2(-1536, -127688)
 
-[node name="RigidBody2D31" parent="." unique_id=747877820 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D64" parent="stage 3/roccs" unique_id=747877820 instance=ExtResource("7_tipki")]
 position = Vector2(-648, -127176)
 
-[node name="RigidBody2D32" parent="." unique_id=1056480732 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D65" parent="stage 3/roccs" unique_id=1056480732 instance=ExtResource("4_tbgi4")]
 position = Vector2(568, -127392)
 
-[node name="RigidBody2D33" parent="." unique_id=2057759872 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D66" parent="stage 3/roccs" unique_id=2057759872 instance=ExtResource("7_tipki")]
 position = Vector2(1632, -126952)
 
-[node name="RigidBody2D34" parent="." unique_id=161948398 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D67" parent="stage 3/roccs" unique_id=161948398 instance=ExtResource("4_tbgi4")]
 position = Vector2(2768, -126928)
 
-[node name="RigidBody2D35" parent="." unique_id=1756538511 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D68" parent="stage 3/roccs" unique_id=1756538511 instance=ExtResource("4_tbgi4")]
 position = Vector2(4368, -126616)
 
-[node name="RigidBody2D36" parent="." unique_id=1657558928 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D69" parent="stage 3/roccs" unique_id=1657558928 instance=ExtResource("8_85g3d")]
 position = Vector2(3648, -127264)
 
-[node name="RigidBody2D37" parent="." unique_id=1957141947 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D70" parent="stage 3/roccs" unique_id=1957141947 instance=ExtResource("4_tbgi4")]
 position = Vector2(-3720, -128240)
 
-[node name="RigidBody2D38" parent="." unique_id=1577572445 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D71" parent="stage 3/roccs" unique_id=1577572445 instance=ExtResource("7_tipki")]
 position = Vector2(-2696, -128528)
 
-[node name="RigidBody2D39" parent="." unique_id=1066866591 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D72" parent="stage 3/roccs" unique_id=1066866591 instance=ExtResource("8_85g3d")]
 position = Vector2(-280, -128208)
 
-[node name="RigidBody2D40" parent="." unique_id=552095871 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D73" parent="stage 3/roccs" unique_id=552095871 instance=ExtResource("7_tipki")]
 position = Vector2(-1616, -128768)
 
-[node name="RigidBody2D41" parent="." unique_id=1218401635 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D74" parent="stage 3/roccs" unique_id=1218401635 instance=ExtResource("4_tbgi4")]
 position = Vector2(1392, -127912)
 
-[node name="RigidBody2D42" parent="." unique_id=910689008 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D75" parent="stage 3/roccs" unique_id=910689008 instance=ExtResource("8_85g3d")]
 position = Vector2(2424, -127968)
 
-[node name="RigidBody2D43" parent="." unique_id=355314057 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D76" parent="stage 3/roccs" unique_id=355314057 instance=ExtResource("7_tipki")]
 position = Vector2(-4432, -129104)
 
-[node name="RigidBody2D44" parent="." unique_id=635077216 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D77" parent="stage 3/roccs" unique_id=635077216 instance=ExtResource("4_tbgi4")]
 position = Vector2(-3368, -129304)
 
-[node name="RigidBody2D45" parent="." unique_id=1161772031 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D78" parent="stage 3/roccs" unique_id=1161772031 instance=ExtResource("7_tipki")]
 position = Vector2(-2256, -129656)
 
-[node name="RigidBody2D46" parent="." unique_id=402335340 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D79" parent="stage 3/roccs" unique_id=402335340 instance=ExtResource("8_85g3d")]
 position = Vector2(-488, -129272)
 
-[node name="RigidBody2D47" parent="." unique_id=356470734 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D80" parent="stage 3/roccs" unique_id=356470734 instance=ExtResource("7_tipki")]
 position = Vector2(648, -128856)
 
-[node name="RigidBody2D48" parent="." unique_id=1877880540 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D81" parent="stage 3/roccs" unique_id=1877880540 instance=ExtResource("4_tbgi4")]
 position = Vector2(1792, -129168)
 
-[node name="RigidBody2D49" parent="." unique_id=112840669 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D82" parent="stage 3/roccs" unique_id=112840669 instance=ExtResource("8_85g3d")]
 position = Vector2(3216, -128960)
 
-[node name="RigidBody2D50" parent="." unique_id=1791795181 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D83" parent="stage 3/roccs" unique_id=1791795181 instance=ExtResource("7_tipki")]
 position = Vector2(4280, -128208)
 
-[node name="RigidBody2D51" parent="." unique_id=333123623 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D84" parent="stage 3/roccs" unique_id=333123623 instance=ExtResource("4_tbgi4")]
 position = Vector2(4176, -129568)
 
-[node name="RigidBody2D52" parent="." unique_id=1562918901 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D85" parent="stage 3/roccs" unique_id=1562918901 instance=ExtResource("8_85g3d")]
 position = Vector2(3176, -130072)
 
-[node name="RigidBody2D53" parent="." unique_id=1839453379 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D86" parent="stage 3/roccs" unique_id=1839453379 instance=ExtResource("7_tipki")]
 position = Vector2(2032, -130392)
 
-[node name="RigidBody2D54" parent="." unique_id=144524297 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D87" parent="stage 3/roccs" unique_id=144524297 instance=ExtResource("4_tbgi4")]
 position = Vector2(840, -130016)
 
-[node name="RigidBody2D55" parent="." unique_id=526436486 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D88" parent="stage 3/roccs" unique_id=526436486 instance=ExtResource("7_tipki")]
 position = Vector2(-64, -130376)
 
-[node name="RigidBody2D56" parent="." unique_id=1058332831 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D89" parent="stage 3/roccs" unique_id=1058332831 instance=ExtResource("8_85g3d")]
 position = Vector2(-1008, -130208)
 
-[node name="RigidBody2D57" parent="." unique_id=1075272016 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D90" parent="stage 3/roccs" unique_id=1075272016 instance=ExtResource("4_tbgi4")]
 position = Vector2(-1944, -130648)
 
-[node name="RigidBody2D58" parent="." unique_id=1019005942 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D91" parent="stage 3/roccs" unique_id=1019005942 instance=ExtResource("7_tipki")]
 position = Vector2(-2952, -130528)
 
-[node name="RigidBody2D59" parent="." unique_id=1873546309 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D92" parent="stage 3/roccs" unique_id=1873546309 instance=ExtResource("8_85g3d")]
 position = Vector2(-4280, -130224)
 
-[node name="RigidBody2D60" parent="." unique_id=1267041784 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D93" parent="stage 3/roccs" unique_id=1267041784 instance=ExtResource("4_tbgi4")]
 position = Vector2(4128, -130696)
 
-[node name="RigidBody2D61" parent="." unique_id=1985671771 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D94" parent="stage 3/roccs" unique_id=1985671771 instance=ExtResource("7_tipki")]
 position = Vector2(2992, -131264)
 
-[node name="RigidBody2D62" parent="." unique_id=992867496 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D95" parent="stage 3/roccs" unique_id=992867496 instance=ExtResource("8_85g3d")]
 position = Vector2(976, -131136)
 
-[node name="RigidBody2D63" parent="." unique_id=1220841489 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D96" parent="stage 3/roccs" unique_id=1220841489 instance=ExtResource("4_tbgi4")]
 position = Vector2(-24, -131384)
 
-[node name="RigidBody2D64" parent="." unique_id=1370898265 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D97" parent="stage 3/roccs" unique_id=1370898265 instance=ExtResource("7_tipki")]
 position = Vector2(-1000, -131248)
 
-[node name="RigidBody2D65" parent="." unique_id=181284190 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D98" parent="stage 3/roccs" unique_id=181284190 instance=ExtResource("8_85g3d")]
 position = Vector2(-2416, -131480)
 
-[node name="RigidBody2D66" parent="." unique_id=1753498319 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D99" parent="stage 3/roccs" unique_id=1753498319 instance=ExtResource("4_tbgi4")]
 position = Vector2(-3600, -131376)
 
-[node name="RigidBody2D67" parent="." unique_id=1673529642 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D100" parent="stage 3/roccs" unique_id=1673529642 instance=ExtResource("7_tipki")]
 position = Vector2(-4400, -132136)
 
-[node name="RigidBody2D68" parent="." unique_id=1199101263 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D101" parent="stage 3/roccs" unique_id=1199101263 instance=ExtResource("4_tbgi4")]
 position = Vector2(-3192, -132392)
 
-[node name="RigidBody2D69" parent="." unique_id=1104135657 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D102" parent="stage 3/roccs" unique_id=1104135657 instance=ExtResource("7_tipki")]
 position = Vector2(-1792, -132408)
 
-[node name="RigidBody2D70" parent="." unique_id=1708119721 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D103" parent="stage 3/roccs" unique_id=1708119721 instance=ExtResource("8_85g3d")]
 position = Vector2(-520, -132392)
 
-[node name="RigidBody2D71" parent="." unique_id=334590135 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D104" parent="stage 3/roccs" unique_id=334590135 instance=ExtResource("4_tbgi4")]
 position = Vector2(568, -132336)
 
-[node name="RigidBody2D72" parent="." unique_id=1967179368 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D105" parent="stage 3/roccs" unique_id=1967179368 instance=ExtResource("7_tipki")]
 position = Vector2(1968, -131552)
 
-[node name="RigidBody2D73" parent="." unique_id=1089234672 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D106" parent="stage 3/roccs" unique_id=1089234672 instance=ExtResource("8_85g3d")]
 position = Vector2(1464, -132488)
 
-[node name="RigidBody2D74" parent="." unique_id=309596798 instance=ExtResource("7_tipki")]
+[node name="RigidBody2D107" parent="stage 3/roccs" unique_id=309596798 instance=ExtResource("7_tipki")]
 position = Vector2(4360, -131768)
 
-[node name="RigidBody2D75" parent="." unique_id=1632346940 instance=ExtResource("4_tbgi4")]
+[node name="RigidBody2D108" parent="stage 3/roccs" unique_id=1632346940 instance=ExtResource("4_tbgi4")]
 position = Vector2(3256, -132344)
 
-[node name="RigidBody2D76" parent="." unique_id=1103235933 instance=ExtResource("8_85g3d")]
+[node name="RigidBody2D109" parent="stage 3/roccs" unique_id=1103235933 instance=ExtResource("8_85g3d")]
 position = Vector2(2344, -132768)
+
+[node name="stage 4" type="Node" parent="." unique_id=1208466368]
+
+[node name="Neptune" type="Sprite2D" parent="stage 4" unique_id=1159803018]
+position = Vector2(-1656, -148744)
+texture = ExtResource("15_jkv2x")
+
+[node name="stage 1 rock release" parent="stage 4" unique_id=1171249190 instance=ExtResource("13_a8y0u")]
+position = Vector2(16, -170520)
+
+[node name="stage 1 rock release2" parent="stage 4" unique_id=668270190 instance=ExtResource("13_a8y0u")]
+position = Vector2(16, -150712)
+
+[node name="roccs" type="Node" parent="stage 4" unique_id=1411354043]
+
+[node name="RigidBody2D" parent="stage 4/roccs" unique_id=1802036247 instance=ExtResource("4_tbgi4")]
+position = Vector2(-4128, -151616)
+
+[node name="RigidBody2D2" parent="stage 4/roccs" unique_id=595369547 instance=ExtResource("7_tipki")]
+position = Vector2(-4032, -152904)
+
+[node name="RigidBody2D3" parent="stage 4/roccs" unique_id=244010778 instance=ExtResource("8_85g3d")]
+position = Vector2(-2448, -151496)
+
+[node name="RigidBody2D4" parent="stage 4/roccs" unique_id=498515481 instance=ExtResource("4_tbgi4")]
+position = Vector2(-1208, -153320)
+
+[node name="RigidBody2D5" parent="stage 4/roccs" unique_id=9008404 instance=ExtResource("8_85g3d")]
+position = Vector2(-3936, -154192)
+
+[node name="RigidBody2D6" parent="stage 4/roccs" unique_id=1013431290 instance=ExtResource("8_85g3d")]
+position = Vector2(-2728, -154136)
+
+[node name="RigidBody2D7" parent="stage 4/roccs" unique_id=1344307222 instance=ExtResource("4_tbgi4")]
+position = Vector2(-1888, -152728)
+
+[node name="RigidBody2D8" parent="stage 4/roccs" unique_id=910616430 instance=ExtResource("7_tipki")]
+position = Vector2(-384, -151840)
+
+[node name="RigidBody2D9" parent="stage 4/roccs" unique_id=411898193 instance=ExtResource("7_tipki")]
+position = Vector2(120, -152872)
+
+[node name="RigidBody2D10" parent="stage 4/roccs" unique_id=365422396 instance=ExtResource("7_tipki")]
+position = Vector2(-216, -154040)
+
+[node name="RigidBody2D11" parent="stage 4/roccs" unique_id=1986522693 instance=ExtResource("4_tbgi4")]
+position = Vector2(1768, -151920)
+
+[node name="RigidBody2D12" parent="stage 4/roccs" unique_id=632219414 instance=ExtResource("8_85g3d")]
+position = Vector2(1104, -152592)
+
+[node name="RigidBody2D13" parent="stage 4/roccs" unique_id=187830097 instance=ExtResource("7_tipki")]
+position = Vector2(2552, -151472)
+
+[node name="RigidBody2D14" parent="stage 4/roccs" unique_id=846561880 instance=ExtResource("4_tbgi4")]
+position = Vector2(2472, -152480)
+
+[node name="RigidBody2D15" parent="stage 4/roccs" unique_id=1746285243 instance=ExtResource("8_85g3d")]
+position = Vector2(3512, -151600)
+
+[node name="RigidBody2D16" parent="stage 4/roccs" unique_id=649959217 instance=ExtResource("7_tipki")]
+position = Vector2(3512, -152672)
+
+[node name="RigidBody2D17" parent="stage 4/roccs" unique_id=2023465254 instance=ExtResource("4_tbgi4")]
+position = Vector2(4424, -152048)
+
+[node name="RigidBody2D18" parent="stage 4/roccs" unique_id=348139768 instance=ExtResource("4_tbgi4")]
+position = Vector2(1880, -153480)
+
+[node name="RigidBody2D19" parent="stage 4/roccs" unique_id=828234532 instance=ExtResource("7_tipki")]
+position = Vector2(936, -153736)
+
+[node name="RigidBody2D20" parent="stage 4/roccs" unique_id=2083457848 instance=ExtResource("8_85g3d")]
+position = Vector2(-1648, -154320)
+
+[node name="RigidBody2D21" parent="stage 4/roccs" unique_id=286091598 instance=ExtResource("7_tipki")]
+position = Vector2(-4232, -155240)
+
+[node name="RigidBody2D22" parent="stage 4/roccs" unique_id=1628899411 instance=ExtResource("7_tipki")]
+position = Vector2(-2680, -155384)
+
+[node name="RigidBody2D23" parent="stage 4/roccs" unique_id=1372253959 instance=ExtResource("4_tbgi4")]
+position = Vector2(-1088, -155216)
+
+[node name="RigidBody2D24" parent="stage 4/roccs" unique_id=403636544 instance=ExtResource("8_85g3d")]
+position = Vector2(-104, -155216)
+
+[node name="RigidBody2D25" parent="stage 4/roccs" unique_id=1437033861 instance=ExtResource("7_tipki")]
+position = Vector2(880, -154848)
+
+[node name="RigidBody2D26" parent="stage 4/roccs" unique_id=970905025 instance=ExtResource("4_tbgi4")]
+position = Vector2(1920, -154512)
+
+[node name="RigidBody2D27" parent="stage 4/roccs" unique_id=476758984 instance=ExtResource("7_tipki")]
+position = Vector2(2800, -153640)
+
+[node name="RigidBody2D28" parent="stage 4/roccs" unique_id=2044377869 instance=ExtResource("7_tipki")]
+position = Vector2(4368, -153360)
+
+[node name="RigidBody2D29" parent="stage 4/roccs" unique_id=1241939794 instance=ExtResource("8_85g3d")]
+position = Vector2(3808, -154432)
+
+[node name="RigidBody2D30" parent="stage 4/roccs" unique_id=1021463010 instance=ExtResource("4_tbgi4")]
+position = Vector2(3080, -154736)
+
+[node name="RigidBody2D31" parent="stage 4/roccs" unique_id=649677918 instance=ExtResource("4_tbgi4")]
+position = Vector2(-2768, -152832)
+
+[node name="RigidBody2D32" parent="stage 4/roccs" unique_id=1377380092 instance=ExtResource("8_85g3d")]
+position = Vector2(-1416, -151792)
+
+[node name="RigidBody2D33" parent="stage 4/roccs" unique_id=1865938550 instance=ExtResource("8_85g3d")]
+position = Vector2(656, -151360)
+
+[node name="RigidBody2D34" parent="stage 4/roccs" unique_id=1220452033 instance=ExtResource("4_tbgi4")]
+position = Vector2(-4064, -156416)
+
+[node name="RigidBody2D35" parent="stage 4/roccs" unique_id=399943461 instance=ExtResource("7_tipki")]
+position = Vector2(-2824, -156696)
+
+[node name="RigidBody2D36" parent="stage 4/roccs" unique_id=938809889 instance=ExtResource("8_85g3d")]
+position = Vector2(-1872, -155968)
+
+[node name="RigidBody2D37" parent="stage 4/roccs" unique_id=1755480983 instance=ExtResource("7_tipki")]
+position = Vector2(-816, -156264)
+
+[node name="RigidBody2D38" parent="stage 4/roccs" unique_id=1472308256 instance=ExtResource("4_tbgi4")]
+position = Vector2(352, -156120)
+
+[node name="RigidBody2D39" parent="stage 4/roccs" unique_id=1459722002 instance=ExtResource("8_85g3d")]
+position = Vector2(1496, -155880)
+
+[node name="RigidBody2D40" parent="stage 4/roccs" unique_id=1739120821 instance=ExtResource("7_tipki")]
+position = Vector2(2456, -155536)
+
+[node name="RigidBody2D41" parent="stage 4/roccs" unique_id=1593887673 instance=ExtResource("4_tbgi4")]
+position = Vector2(3600, -155680)
+
+[node name="RigidBody2D42" parent="stage 4/roccs" unique_id=416533724 instance=ExtResource("7_tipki")]
+position = Vector2(4424, -155328)
+
+[node name="RigidBody2D43" parent="stage 4/roccs" unique_id=1531003933 instance=ExtResource("4_tbgi4")]
+position = Vector2(-3704, -157552)
+
+[node name="RigidBody2D44" parent="stage 4/roccs" unique_id=1696379931 instance=ExtResource("7_tipki")]
+position = Vector2(-2552, -157736)
+
+[node name="RigidBody2D45" parent="stage 4/roccs" unique_id=786315311 instance=ExtResource("8_85g3d")]
+position = Vector2(-1628, -157080)
+
+[node name="RigidBody2D46" parent="stage 4/roccs" unique_id=1958994550 instance=ExtResource("7_tipki")]
+position = Vector2(-384, -157368)
+
+[node name="RigidBody2D47" parent="stage 4/roccs" unique_id=1533909620 instance=ExtResource("4_tbgi4")]
+position = Vector2(576, -157136)
+
+[node name="RigidBody2D48" parent="stage 4/roccs" unique_id=928478466 instance=ExtResource("7_tipki")]
+position = Vector2(1520, -156912)
+
+[node name="RigidBody2D49" parent="stage 4/roccs" unique_id=1849412156 instance=ExtResource("8_85g3d")]
+position = Vector2(2544, -156584)
+
+[node name="RigidBody2D50" parent="stage 4/roccs" unique_id=280536057 instance=ExtResource("7_tipki")]
+position = Vector2(3616, -156816)
+
+[node name="RigidBody2D51" parent="stage 4/roccs" unique_id=557838277 instance=ExtResource("4_tbgi4")]
+position = Vector2(4432, -156208)
+
+[node name="RigidBody2D52" parent="stage 4/roccs" unique_id=1254920772 instance=ExtResource("7_tipki")]
+position = Vector2(4432, -157632)
+
+[node name="RigidBody2D53" parent="stage 4/roccs" unique_id=190121158 instance=ExtResource("8_85g3d")]
+position = Vector2(3160, -157912)
+
+[node name="RigidBody2D54" parent="stage 4/roccs" unique_id=1962488932 instance=ExtResource("7_tipki")]
+position = Vector2(2160, -157752)
+
+[node name="RigidBody2D55" parent="stage 4/roccs" unique_id=1305817342 instance=ExtResource("8_85g3d")]
+position = Vector2(1104, -158064)
+
+[node name="RigidBody2D56" parent="stage 4/roccs" unique_id=1186393902 instance=ExtResource("7_tipki")]
+position = Vector2(176, -158336)
+
+[node name="RigidBody2D57" parent="stage 4/roccs" unique_id=147157528 instance=ExtResource("4_tbgi4")]
+position = Vector2(-1056, -158168)
+
+[node name="RigidBody2D58" parent="stage 4/roccs" unique_id=1886737008 instance=ExtResource("7_tipki")]
+position = Vector2(-1944, -158728)
+
+[node name="RigidBody2D59" parent="stage 4/roccs" unique_id=560400521 instance=ExtResource("8_85g3d")]
+position = Vector2(-4456, -158104)
+
+[node name="RigidBody2D60" parent="stage 4/roccs" unique_id=1361010661 instance=ExtResource("7_tipki")]
+position = Vector2(-3408, -158680)
+
+[node name="RigidBody2D61" parent="stage 4/roccs" unique_id=1204666594 instance=ExtResource("4_tbgi4")]
+position = Vector2(-4232, -159216)
+
+[node name="RigidBody2D62" parent="stage 4/roccs" unique_id=758297697 instance=ExtResource("7_tipki")]
+position = Vector2(-2760, -159552)
+
+[node name="RigidBody2D63" parent="stage 4/roccs" unique_id=52937139 instance=ExtResource("8_85g3d")]
+position = Vector2(-1536, -159720)
+
+[node name="RigidBody2D64" parent="stage 4/roccs" unique_id=2037331337 instance=ExtResource("7_tipki")]
+position = Vector2(-648, -159208)
+
+[node name="RigidBody2D65" parent="stage 4/roccs" unique_id=264245239 instance=ExtResource("4_tbgi4")]
+position = Vector2(568, -159424)
+
+[node name="RigidBody2D66" parent="stage 4/roccs" unique_id=300161949 instance=ExtResource("7_tipki")]
+position = Vector2(1632, -158984)
+
+[node name="RigidBody2D67" parent="stage 4/roccs" unique_id=608771282 instance=ExtResource("4_tbgi4")]
+position = Vector2(2768, -158960)
+
+[node name="RigidBody2D68" parent="stage 4/roccs" unique_id=866250941 instance=ExtResource("4_tbgi4")]
+position = Vector2(4368, -158648)
+
+[node name="RigidBody2D69" parent="stage 4/roccs" unique_id=662566967 instance=ExtResource("8_85g3d")]
+position = Vector2(3648, -159296)
+
+[node name="RigidBody2D70" parent="stage 4/roccs" unique_id=631792603 instance=ExtResource("4_tbgi4")]
+position = Vector2(-3720, -160272)
+
+[node name="RigidBody2D71" parent="stage 4/roccs" unique_id=1784157134 instance=ExtResource("7_tipki")]
+position = Vector2(-2696, -160560)
+
+[node name="RigidBody2D72" parent="stage 4/roccs" unique_id=1387302629 instance=ExtResource("8_85g3d")]
+position = Vector2(-280, -160240)
+
+[node name="RigidBody2D73" parent="stage 4/roccs" unique_id=1725388785 instance=ExtResource("7_tipki")]
+position = Vector2(-1616, -160800)
+
+[node name="RigidBody2D74" parent="stage 4/roccs" unique_id=613345379 instance=ExtResource("4_tbgi4")]
+position = Vector2(1392, -159944)
+
+[node name="RigidBody2D75" parent="stage 4/roccs" unique_id=1376415297 instance=ExtResource("8_85g3d")]
+position = Vector2(2424, -160000)
+
+[node name="RigidBody2D76" parent="stage 4/roccs" unique_id=1722042538 instance=ExtResource("7_tipki")]
+position = Vector2(-4432, -161136)
+
+[node name="RigidBody2D77" parent="stage 4/roccs" unique_id=546790571 instance=ExtResource("4_tbgi4")]
+position = Vector2(-3368, -161336)
+
+[node name="RigidBody2D78" parent="stage 4/roccs" unique_id=529779751 instance=ExtResource("7_tipki")]
+position = Vector2(-2256, -161688)
+
+[node name="RigidBody2D79" parent="stage 4/roccs" unique_id=342194652 instance=ExtResource("8_85g3d")]
+position = Vector2(-488, -161304)
+
+[node name="RigidBody2D80" parent="stage 4/roccs" unique_id=1784741707 instance=ExtResource("7_tipki")]
+position = Vector2(648, -160888)
+
+[node name="RigidBody2D81" parent="stage 4/roccs" unique_id=1810504115 instance=ExtResource("4_tbgi4")]
+position = Vector2(1792, -161200)
+
+[node name="RigidBody2D82" parent="stage 4/roccs" unique_id=878425229 instance=ExtResource("8_85g3d")]
+position = Vector2(3216, -160992)
+
+[node name="RigidBody2D83" parent="stage 4/roccs" unique_id=1974719990 instance=ExtResource("7_tipki")]
+position = Vector2(4280, -160240)
+
+[node name="RigidBody2D84" parent="stage 4/roccs" unique_id=1845339025 instance=ExtResource("4_tbgi4")]
+position = Vector2(4176, -161600)
+
+[node name="RigidBody2D85" parent="stage 4/roccs" unique_id=1215926703 instance=ExtResource("8_85g3d")]
+position = Vector2(3176, -162104)
+
+[node name="RigidBody2D86" parent="stage 4/roccs" unique_id=549796710 instance=ExtResource("7_tipki")]
+position = Vector2(2032, -162424)
+
+[node name="RigidBody2D87" parent="stage 4/roccs" unique_id=136172793 instance=ExtResource("4_tbgi4")]
+position = Vector2(840, -162048)
+
+[node name="RigidBody2D88" parent="stage 4/roccs" unique_id=97823831 instance=ExtResource("7_tipki")]
+position = Vector2(-64, -162408)
+
+[node name="RigidBody2D89" parent="stage 4/roccs" unique_id=1715813341 instance=ExtResource("8_85g3d")]
+position = Vector2(-1008, -162240)
+
+[node name="RigidBody2D90" parent="stage 4/roccs" unique_id=860348362 instance=ExtResource("4_tbgi4")]
+position = Vector2(-1944, -162680)
+
+[node name="RigidBody2D91" parent="stage 4/roccs" unique_id=298594046 instance=ExtResource("7_tipki")]
+position = Vector2(-2952, -162560)
+
+[node name="RigidBody2D92" parent="stage 4/roccs" unique_id=53388363 instance=ExtResource("8_85g3d")]
+position = Vector2(-4280, -162256)
+
+[node name="RigidBody2D93" parent="stage 4/roccs" unique_id=1445621619 instance=ExtResource("4_tbgi4")]
+position = Vector2(4128, -162728)
+
+[node name="RigidBody2D94" parent="stage 4/roccs" unique_id=654948038 instance=ExtResource("7_tipki")]
+position = Vector2(2992, -163296)
+
+[node name="RigidBody2D95" parent="stage 4/roccs" unique_id=1090830305 instance=ExtResource("8_85g3d")]
+position = Vector2(976, -163168)
+
+[node name="RigidBody2D96" parent="stage 4/roccs" unique_id=937361055 instance=ExtResource("4_tbgi4")]
+position = Vector2(-24, -163416)
+
+[node name="RigidBody2D97" parent="stage 4/roccs" unique_id=1067205581 instance=ExtResource("7_tipki")]
+position = Vector2(-1000, -163280)
+
+[node name="RigidBody2D98" parent="stage 4/roccs" unique_id=1685826802 instance=ExtResource("8_85g3d")]
+position = Vector2(-2416, -163512)
+
+[node name="RigidBody2D99" parent="stage 4/roccs" unique_id=555748863 instance=ExtResource("4_tbgi4")]
+position = Vector2(-3600, -163408)
+
+[node name="RigidBody2D100" parent="stage 4/roccs" unique_id=1342242960 instance=ExtResource("7_tipki")]
+position = Vector2(-4400, -164168)
+
+[node name="RigidBody2D101" parent="stage 4/roccs" unique_id=376007945 instance=ExtResource("4_tbgi4")]
+position = Vector2(-3192, -164424)
+
+[node name="RigidBody2D102" parent="stage 4/roccs" unique_id=17223254 instance=ExtResource("7_tipki")]
+position = Vector2(-1792, -164440)
+
+[node name="RigidBody2D103" parent="stage 4/roccs" unique_id=1128311638 instance=ExtResource("8_85g3d")]
+position = Vector2(-520, -164424)
+
+[node name="RigidBody2D104" parent="stage 4/roccs" unique_id=2018478617 instance=ExtResource("4_tbgi4")]
+position = Vector2(568, -164368)
+
+[node name="RigidBody2D105" parent="stage 4/roccs" unique_id=1732638683 instance=ExtResource("7_tipki")]
+position = Vector2(1968, -163584)
+
+[node name="RigidBody2D106" parent="stage 4/roccs" unique_id=854387619 instance=ExtResource("8_85g3d")]
+position = Vector2(1464, -164520)
+
+[node name="RigidBody2D107" parent="stage 4/roccs" unique_id=161014123 instance=ExtResource("7_tipki")]
+position = Vector2(4360, -163800)
+
+[node name="RigidBody2D108" parent="stage 4/roccs" unique_id=1459880955 instance=ExtResource("4_tbgi4")]
+position = Vector2(3256, -164376)
+
+[node name="RigidBody2D109" parent="stage 4/roccs" unique_id=739244587 instance=ExtResource("8_85g3d")]
+position = Vector2(2344, -164800)
+
+[node name="RigidBody2D110" parent="stage 4/roccs" unique_id=1291002253 instance=ExtResource("4_tbgi4")]
+position = Vector2(-4128, -171760)
+
+[node name="RigidBody2D111" parent="stage 4/roccs" unique_id=496125688 instance=ExtResource("7_tipki")]
+position = Vector2(-4032, -173048)
+
+[node name="RigidBody2D112" parent="stage 4/roccs" unique_id=789302316 instance=ExtResource("8_85g3d")]
+position = Vector2(-2448, -171640)
+
+[node name="RigidBody2D113" parent="stage 4/roccs" unique_id=1688935811 instance=ExtResource("4_tbgi4")]
+position = Vector2(-1208, -173464)
+
+[node name="RigidBody2D114" parent="stage 4/roccs" unique_id=535121296 instance=ExtResource("8_85g3d")]
+position = Vector2(-3936, -174336)
+
+[node name="RigidBody2D115" parent="stage 4/roccs" unique_id=1125029275 instance=ExtResource("8_85g3d")]
+position = Vector2(-2728, -174280)
+
+[node name="RigidBody2D116" parent="stage 4/roccs" unique_id=1911887552 instance=ExtResource("4_tbgi4")]
+position = Vector2(-1888, -172872)
+
+[node name="RigidBody2D117" parent="stage 4/roccs" unique_id=1696357998 instance=ExtResource("7_tipki")]
+position = Vector2(-384, -171984)
+
+[node name="RigidBody2D118" parent="stage 4/roccs" unique_id=1505878204 instance=ExtResource("7_tipki")]
+position = Vector2(120, -173016)
+
+[node name="RigidBody2D119" parent="stage 4/roccs" unique_id=1253750892 instance=ExtResource("7_tipki")]
+position = Vector2(-216, -174184)
+
+[node name="RigidBody2D120" parent="stage 4/roccs" unique_id=447532003 instance=ExtResource("4_tbgi4")]
+position = Vector2(1768, -172064)
+
+[node name="RigidBody2D121" parent="stage 4/roccs" unique_id=1748307816 instance=ExtResource("8_85g3d")]
+position = Vector2(1104, -172736)
+
+[node name="RigidBody2D122" parent="stage 4/roccs" unique_id=213162768 instance=ExtResource("7_tipki")]
+position = Vector2(2552, -171616)
+
+[node name="RigidBody2D123" parent="stage 4/roccs" unique_id=199510257 instance=ExtResource("4_tbgi4")]
+position = Vector2(2472, -172624)
+
+[node name="RigidBody2D124" parent="stage 4/roccs" unique_id=925133004 instance=ExtResource("8_85g3d")]
+position = Vector2(3512, -171744)
+
+[node name="RigidBody2D125" parent="stage 4/roccs" unique_id=97354831 instance=ExtResource("7_tipki")]
+position = Vector2(3512, -172816)
+
+[node name="RigidBody2D126" parent="stage 4/roccs" unique_id=427558490 instance=ExtResource("4_tbgi4")]
+position = Vector2(4424, -172192)
+
+[node name="RigidBody2D127" parent="stage 4/roccs" unique_id=1385985186 instance=ExtResource("4_tbgi4")]
+position = Vector2(1880, -173624)
+
+[node name="RigidBody2D128" parent="stage 4/roccs" unique_id=1416480101 instance=ExtResource("7_tipki")]
+position = Vector2(936, -173880)
+
+[node name="RigidBody2D129" parent="stage 4/roccs" unique_id=354771004 instance=ExtResource("8_85g3d")]
+position = Vector2(-1648, -174464)
+
+[node name="RigidBody2D130" parent="stage 4/roccs" unique_id=1936995384 instance=ExtResource("7_tipki")]
+position = Vector2(-4232, -175384)
+
+[node name="RigidBody2D131" parent="stage 4/roccs" unique_id=578319562 instance=ExtResource("7_tipki")]
+position = Vector2(-2680, -175528)
+
+[node name="RigidBody2D132" parent="stage 4/roccs" unique_id=518342772 instance=ExtResource("4_tbgi4")]
+position = Vector2(-1088, -175360)
+
+[node name="RigidBody2D133" parent="stage 4/roccs" unique_id=633553386 instance=ExtResource("8_85g3d")]
+position = Vector2(-104, -175360)
+
+[node name="RigidBody2D134" parent="stage 4/roccs" unique_id=892303467 instance=ExtResource("7_tipki")]
+position = Vector2(880, -174992)
+
+[node name="RigidBody2D135" parent="stage 4/roccs" unique_id=1019880860 instance=ExtResource("4_tbgi4")]
+position = Vector2(1920, -174656)
+
+[node name="RigidBody2D136" parent="stage 4/roccs" unique_id=1970230884 instance=ExtResource("7_tipki")]
+position = Vector2(2800, -173784)
+
+[node name="RigidBody2D137" parent="stage 4/roccs" unique_id=138449111 instance=ExtResource("7_tipki")]
+position = Vector2(4368, -173504)
+
+[node name="RigidBody2D138" parent="stage 4/roccs" unique_id=410988628 instance=ExtResource("8_85g3d")]
+position = Vector2(3808, -174576)
+
+[node name="RigidBody2D139" parent="stage 4/roccs" unique_id=1743113620 instance=ExtResource("4_tbgi4")]
+position = Vector2(3080, -174880)
+
+[node name="RigidBody2D140" parent="stage 4/roccs" unique_id=1658133837 instance=ExtResource("4_tbgi4")]
+position = Vector2(-2768, -172976)
+
+[node name="RigidBody2D141" parent="stage 4/roccs" unique_id=1989721240 instance=ExtResource("8_85g3d")]
+position = Vector2(-1416, -171936)
+
+[node name="RigidBody2D142" parent="stage 4/roccs" unique_id=893065507 instance=ExtResource("8_85g3d")]
+position = Vector2(656, -171504)
+
+[node name="RigidBody2D143" parent="stage 4/roccs" unique_id=2123010544 instance=ExtResource("4_tbgi4")]
+position = Vector2(-4064, -176560)
+
+[node name="RigidBody2D144" parent="stage 4/roccs" unique_id=1811140350 instance=ExtResource("7_tipki")]
+position = Vector2(-2824, -176840)
+
+[node name="RigidBody2D145" parent="stage 4/roccs" unique_id=905977144 instance=ExtResource("8_85g3d")]
+position = Vector2(-1872, -176112)
+
+[node name="RigidBody2D146" parent="stage 4/roccs" unique_id=983905145 instance=ExtResource("7_tipki")]
+position = Vector2(-816, -176408)
+
+[node name="RigidBody2D147" parent="stage 4/roccs" unique_id=240577616 instance=ExtResource("4_tbgi4")]
+position = Vector2(352, -176264)
+
+[node name="RigidBody2D148" parent="stage 4/roccs" unique_id=1960155104 instance=ExtResource("8_85g3d")]
+position = Vector2(1496, -176024)
+
+[node name="RigidBody2D149" parent="stage 4/roccs" unique_id=927092448 instance=ExtResource("7_tipki")]
+position = Vector2(2456, -175680)
+
+[node name="RigidBody2D150" parent="stage 4/roccs" unique_id=1001589853 instance=ExtResource("4_tbgi4")]
+position = Vector2(3600, -175824)
+
+[node name="RigidBody2D151" parent="stage 4/roccs" unique_id=1164165871 instance=ExtResource("7_tipki")]
+position = Vector2(4424, -175472)
+
+[node name="RigidBody2D152" parent="stage 4/roccs" unique_id=1619911552 instance=ExtResource("4_tbgi4")]
+position = Vector2(-3704, -177696)
+
+[node name="RigidBody2D153" parent="stage 4/roccs" unique_id=1515693614 instance=ExtResource("7_tipki")]
+position = Vector2(-2552, -177880)
+
+[node name="RigidBody2D154" parent="stage 4/roccs" unique_id=62456126 instance=ExtResource("8_85g3d")]
+position = Vector2(-1628, -177224)
+
+[node name="RigidBody2D155" parent="stage 4/roccs" unique_id=65753735 instance=ExtResource("7_tipki")]
+position = Vector2(-384, -177512)
+
+[node name="RigidBody2D156" parent="stage 4/roccs" unique_id=719535455 instance=ExtResource("4_tbgi4")]
+position = Vector2(576, -177280)
+
+[node name="RigidBody2D157" parent="stage 4/roccs" unique_id=658912189 instance=ExtResource("7_tipki")]
+position = Vector2(1520, -177056)
+
+[node name="RigidBody2D158" parent="stage 4/roccs" unique_id=620946183 instance=ExtResource("8_85g3d")]
+position = Vector2(2544, -176728)
+
+[node name="RigidBody2D159" parent="stage 4/roccs" unique_id=928243872 instance=ExtResource("7_tipki")]
+position = Vector2(3616, -176960)
+
+[node name="RigidBody2D160" parent="stage 4/roccs" unique_id=649017857 instance=ExtResource("4_tbgi4")]
+position = Vector2(4432, -176352)
+
+[node name="RigidBody2D161" parent="stage 4/roccs" unique_id=1401142260 instance=ExtResource("7_tipki")]
+position = Vector2(4432, -177776)
+
+[node name="RigidBody2D162" parent="stage 4/roccs" unique_id=961242471 instance=ExtResource("8_85g3d")]
+position = Vector2(3160, -178056)
+
+[node name="RigidBody2D163" parent="stage 4/roccs" unique_id=1850341492 instance=ExtResource("7_tipki")]
+position = Vector2(2160, -177896)
+
+[node name="RigidBody2D164" parent="stage 4/roccs" unique_id=18604242 instance=ExtResource("8_85g3d")]
+position = Vector2(1104, -178208)
+
+[node name="RigidBody2D165" parent="stage 4/roccs" unique_id=1863909341 instance=ExtResource("7_tipki")]
+position = Vector2(176, -178480)
+
+[node name="RigidBody2D166" parent="stage 4/roccs" unique_id=316363441 instance=ExtResource("4_tbgi4")]
+position = Vector2(-1056, -178312)
+
+[node name="RigidBody2D167" parent="stage 4/roccs" unique_id=871100395 instance=ExtResource("7_tipki")]
+position = Vector2(-1944, -178872)
+
+[node name="RigidBody2D168" parent="stage 4/roccs" unique_id=1231612740 instance=ExtResource("8_85g3d")]
+position = Vector2(-4456, -178248)
+
+[node name="RigidBody2D169" parent="stage 4/roccs" unique_id=780998944 instance=ExtResource("7_tipki")]
+position = Vector2(-3408, -178824)
+
+[node name="RigidBody2D170" parent="stage 4/roccs" unique_id=1436243948 instance=ExtResource("4_tbgi4")]
+position = Vector2(-4232, -179360)
+
+[node name="RigidBody2D171" parent="stage 4/roccs" unique_id=1622194899 instance=ExtResource("7_tipki")]
+position = Vector2(-2760, -179696)
+
+[node name="RigidBody2D172" parent="stage 4/roccs" unique_id=1502674179 instance=ExtResource("8_85g3d")]
+position = Vector2(-1536, -179864)
+
+[node name="RigidBody2D173" parent="stage 4/roccs" unique_id=584594372 instance=ExtResource("7_tipki")]
+position = Vector2(-648, -179352)
+
+[node name="RigidBody2D174" parent="stage 4/roccs" unique_id=559938315 instance=ExtResource("4_tbgi4")]
+position = Vector2(568, -179568)
+
+[node name="RigidBody2D175" parent="stage 4/roccs" unique_id=11626276 instance=ExtResource("7_tipki")]
+position = Vector2(1632, -179128)
+
+[node name="RigidBody2D176" parent="stage 4/roccs" unique_id=1254851819 instance=ExtResource("4_tbgi4")]
+position = Vector2(2768, -179104)
+
+[node name="RigidBody2D177" parent="stage 4/roccs" unique_id=230327860 instance=ExtResource("4_tbgi4")]
+position = Vector2(4368, -178792)
+
+[node name="RigidBody2D178" parent="stage 4/roccs" unique_id=1410134380 instance=ExtResource("8_85g3d")]
+position = Vector2(3648, -179440)
+
+[node name="RigidBody2D179" parent="stage 4/roccs" unique_id=89867567 instance=ExtResource("4_tbgi4")]
+position = Vector2(-3720, -180416)
+
+[node name="RigidBody2D180" parent="stage 4/roccs" unique_id=70735682 instance=ExtResource("7_tipki")]
+position = Vector2(-2696, -180704)
+
+[node name="RigidBody2D181" parent="stage 4/roccs" unique_id=636675098 instance=ExtResource("8_85g3d")]
+position = Vector2(-280, -180384)
+
+[node name="RigidBody2D182" parent="stage 4/roccs" unique_id=370106921 instance=ExtResource("7_tipki")]
+position = Vector2(-1616, -180944)
+
+[node name="RigidBody2D183" parent="stage 4/roccs" unique_id=90163865 instance=ExtResource("4_tbgi4")]
+position = Vector2(1392, -180088)
+
+[node name="RigidBody2D184" parent="stage 4/roccs" unique_id=330596929 instance=ExtResource("8_85g3d")]
+position = Vector2(2424, -180144)
+
+[node name="RigidBody2D185" parent="stage 4/roccs" unique_id=1553316742 instance=ExtResource("7_tipki")]
+position = Vector2(-4432, -181280)
+
+[node name="RigidBody2D186" parent="stage 4/roccs" unique_id=1299848473 instance=ExtResource("4_tbgi4")]
+position = Vector2(-3368, -181480)
+
+[node name="RigidBody2D187" parent="stage 4/roccs" unique_id=470302431 instance=ExtResource("7_tipki")]
+position = Vector2(-2256, -181832)
+
+[node name="RigidBody2D188" parent="stage 4/roccs" unique_id=1236895514 instance=ExtResource("8_85g3d")]
+position = Vector2(-488, -181448)
+
+[node name="RigidBody2D189" parent="stage 4/roccs" unique_id=112942883 instance=ExtResource("7_tipki")]
+position = Vector2(648, -181032)
+
+[node name="RigidBody2D190" parent="stage 4/roccs" unique_id=577100686 instance=ExtResource("4_tbgi4")]
+position = Vector2(1792, -181344)
+
+[node name="RigidBody2D191" parent="stage 4/roccs" unique_id=600274814 instance=ExtResource("8_85g3d")]
+position = Vector2(3216, -181136)
+
+[node name="RigidBody2D192" parent="stage 4/roccs" unique_id=1733301815 instance=ExtResource("7_tipki")]
+position = Vector2(4280, -180384)
+
+[node name="RigidBody2D193" parent="stage 4/roccs" unique_id=1379531940 instance=ExtResource("4_tbgi4")]
+position = Vector2(4176, -181744)
+
+[node name="RigidBody2D194" parent="stage 4/roccs" unique_id=581561941 instance=ExtResource("8_85g3d")]
+position = Vector2(3176, -182248)
+
+[node name="RigidBody2D195" parent="stage 4/roccs" unique_id=971006692 instance=ExtResource("7_tipki")]
+position = Vector2(2032, -182568)
+
+[node name="RigidBody2D196" parent="stage 4/roccs" unique_id=1188797574 instance=ExtResource("4_tbgi4")]
+position = Vector2(840, -182192)
+
+[node name="RigidBody2D197" parent="stage 4/roccs" unique_id=467441784 instance=ExtResource("7_tipki")]
+position = Vector2(-64, -182552)
+
+[node name="RigidBody2D198" parent="stage 4/roccs" unique_id=1743099227 instance=ExtResource("8_85g3d")]
+position = Vector2(-1008, -182384)
+
+[node name="RigidBody2D199" parent="stage 4/roccs" unique_id=1721507298 instance=ExtResource("4_tbgi4")]
+position = Vector2(-1944, -182824)
+
+[node name="RigidBody2D200" parent="stage 4/roccs" unique_id=1773960939 instance=ExtResource("7_tipki")]
+position = Vector2(-2952, -182704)
+
+[node name="RigidBody2D201" parent="stage 4/roccs" unique_id=778312413 instance=ExtResource("8_85g3d")]
+position = Vector2(-4280, -182400)
+
+[node name="RigidBody2D202" parent="stage 4/roccs" unique_id=1430491519 instance=ExtResource("4_tbgi4")]
+position = Vector2(4128, -182872)
+
+[node name="RigidBody2D203" parent="stage 4/roccs" unique_id=1780998544 instance=ExtResource("7_tipki")]
+position = Vector2(2992, -183440)
+
+[node name="RigidBody2D204" parent="stage 4/roccs" unique_id=1009786253 instance=ExtResource("8_85g3d")]
+position = Vector2(976, -183312)
+
+[node name="RigidBody2D205" parent="stage 4/roccs" unique_id=1464053229 instance=ExtResource("4_tbgi4")]
+position = Vector2(-24, -183560)
+
+[node name="RigidBody2D206" parent="stage 4/roccs" unique_id=668048550 instance=ExtResource("7_tipki")]
+position = Vector2(-1000, -183424)
+
+[node name="RigidBody2D207" parent="stage 4/roccs" unique_id=1987890933 instance=ExtResource("8_85g3d")]
+position = Vector2(-2416, -183656)
+
+[node name="RigidBody2D208" parent="stage 4/roccs" unique_id=6923118 instance=ExtResource("4_tbgi4")]
+position = Vector2(-3600, -183552)
+
+[node name="RigidBody2D209" parent="stage 4/roccs" unique_id=1868556744 instance=ExtResource("7_tipki")]
+position = Vector2(-4400, -184312)
+
+[node name="RigidBody2D210" parent="stage 4/roccs" unique_id=1162548742 instance=ExtResource("4_tbgi4")]
+position = Vector2(-3192, -184568)
+
+[node name="RigidBody2D211" parent="stage 4/roccs" unique_id=2099624868 instance=ExtResource("7_tipki")]
+position = Vector2(-1792, -184584)
+
+[node name="RigidBody2D212" parent="stage 4/roccs" unique_id=1398079594 instance=ExtResource("8_85g3d")]
+position = Vector2(-520, -184568)
+
+[node name="RigidBody2D213" parent="stage 4/roccs" unique_id=978252725 instance=ExtResource("4_tbgi4")]
+position = Vector2(568, -184512)
+
+[node name="RigidBody2D214" parent="stage 4/roccs" unique_id=1880728598 instance=ExtResource("7_tipki")]
+position = Vector2(1968, -183728)
+
+[node name="RigidBody2D215" parent="stage 4/roccs" unique_id=1283352985 instance=ExtResource("8_85g3d")]
+position = Vector2(1464, -184664)
+
+[node name="RigidBody2D216" parent="stage 4/roccs" unique_id=2035745421 instance=ExtResource("7_tipki")]
+position = Vector2(4360, -183944)
+
+[node name="RigidBody2D217" parent="stage 4/roccs" unique_id=1007343725 instance=ExtResource("4_tbgi4")]
+position = Vector2(3256, -184520)
+
+[node name="RigidBody2D218" parent="stage 4/roccs" unique_id=1370941285 instance=ExtResource("8_85g3d")]
+position = Vector2(2344, -184944)
