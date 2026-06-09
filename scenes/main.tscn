@@ -15,6 +15,8 @@
 [ext_resource type="PackedScene" uid="uid://uu6eh8iesrj0" path="res://scenes/rock_releaser3.tscn" id="13_a8y0u"]
 [ext_resource type="Texture2D" uid="uid://dqv0ui22p5m05" path="res://art/your ass.png" id="13_trceg"]
 [ext_resource type="Texture2D" uid="uid://cdaumnylasvf4" path="res://art/neptune.png" id="15_jkv2x"]
+[ext_resource type="PackedScene" uid="uid://xi8fxbox65qe" path="res://scenes/game ender.tscn" id="16_jbj1t"]
+[ext_resource type="Texture2D" uid="uid://b4ujqnstreo4v" path="res://art/plutoski.png" id="17_muem4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0wfyh"]
 texture = ExtResource("1_o5qli")
@@ -1247,6 +1249,9 @@ position = Vector2(3256, -132344)
 [node name="RigidBody2D109" parent="stage 3/roccs" unique_id=1103235933 instance=ExtResource("8_85g3d")]
 position = Vector2(2344, -132768)
 
+[node name="game ender" parent="." unique_id=652459450 instance=ExtResource("16_jbj1t")]
+position = Vector2(24, -206536)
+
 [node name="stage 4" type="Node" parent="." unique_id=1208466368]
 
 [node name="Neptune" type="Sprite2D" parent="stage 4" unique_id=1159803018]
@@ -1914,3 +1919,7 @@ position = Vector2(3256, -184520)
 
 [node name="RigidBody2D218" parent="stage 4/roccs" unique_id=1370941285 instance=ExtResource("8_85g3d")]
 position = Vector2(2344, -184944)
+
+[node name="Plutoski" type="Sprite2D" parent="stage 4" unique_id=188042850]
+position = Vector2(-1464, -203656)
+texture = ExtResource("17_muem4")

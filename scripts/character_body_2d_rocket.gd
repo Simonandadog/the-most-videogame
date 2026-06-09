@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
 @export var bullet_scene: PackedScene
+@onready var audio_stream_player_2d: AudioStreamPlayer2D = $AudioStreamPlayer2D
 
 
 const SPEED = 1000.0
@@ -30,9 +31,10 @@ func _physics_process(delta: float) -> void:
 			velocity.y = JUMP_VELOCITY
 			fuel -= 100
 			animated_sprite_2d.animation = &"flying"
+			audio_stream_player_2d.play()
 	else:
 		animated_sprite_2d.animation = &"static"
-		
+		audio_stream_player_2d.stop()
 		
 	if distance > position.y :
 		distance = position.y

@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://xi8fxbox65qe"]
+
+[ext_resource type="Script" uid="uid://kl24k4qob4ey" path="res://scripts/game_ender_script.gd" id="1_0lvn5"]
+
+[node name="Node2D" type="Node2D" unique_id=652459450]
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." unique_id=37008091]
+position = Vector2(-984, -216)
+rect = Rect2(-4200, -10, 10368, 434)
+script = ExtResource("1_0lvn5")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1955391039]
+visible = false
+follow_viewport_enabled = true
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=1342354827]
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0, 0, 0, 1)
+
+[connection signal="screen_entered" from="VisibleOnScreenNotifier2D" to="VisibleOnScreenNotifier2D" method="_on_screen_entered"]
