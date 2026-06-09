@@ -1,7 +1,10 @@
 extends CharacterBody2D
 
 @export var bullet_scene: PackedScene
-@onready var audio_stream_player_2d: AudioStreamPlayer2D = $AudioStreamPlayer2D
+@onready var rocket_travel_sound: AudioStreamPlayer2D = $"booster sound"
+@onready var laser_shot_sound: AudioStreamPlayer2D = $"laser shot sound"
+
+@onready var timer: Timer = $Timer
 
 
 const SPEED = 1000.0
@@ -16,9 +19,16 @@ var distance = 0
 
 func shoot():
 	var b = bullet_scene.instantiate()
-	get_tree().current_scene.add_child(b)  # world, not player
-	b.global_transform = $Muzzle.global_transform  # real world position
-	#b.global_transform.y = 
+	get_tree().current_scene.add_child(b)  
+	b.global_transform = $Muzzle.global_transform
+	laser_shot_sound.play()
+	timer.start()
+	
+
+
+func _on_timer_timeout() -> void:
+	laser_shot_sound.stop()
+
 
 
 func _physics_process(delta: float) -> void:
@@ -31,10 +41,10 @@ func _physics_process(delta: float) -> void:
 			velocity.y = JUMP_VELOCITY
 			fuel -= 100
 			animated_sprite_2d.animation = &"flying"
-			audio_stream_player_2d.play()
+			rocket_travel_sound.play()
 	else:
 		animated_sprite_2d.animation = &"static"
-		audio_stream_player_2d.stop()
+		rocket_travel_sound.stop()
 		
 	if distance > position.y :
 		distance = position.y
