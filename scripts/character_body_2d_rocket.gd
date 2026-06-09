@@ -23,11 +23,6 @@ func shoot():
 	b.global_transform = $Muzzle.global_transform
 	
 
-
-
-
-
-
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
 	if not is_on_floor() and position.y < 2000 :
