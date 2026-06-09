@@ -3,9 +3,9 @@
 [ext_resource type="Script" uid="uid://i1q4nnwsrxh8" path="res://scripts/character_body_2d_rocket.gd" id="1_dkv7l"]
 [ext_resource type="PackedScene" uid="uid://d1usbmfp2kjlp" path="res://scenes/area_2d_bullet.tscn" id="2_8kmw3"]
 [ext_resource type="Texture2D" uid="uid://buldppmw3pk3" path="res://art/ship frame 1.png" id="2_agf72"]
-[ext_resource type="AudioStream" uid="uid://pj2slku5wfw1" path="res://sounds/laser shot.wav" id="3_g6bar"]
-[ext_resource type="AudioStream" uid="uid://dfwkjle7haf0i" path="res://sounds/rocket_rumble.wav" id="3_m1h3n"]
+[ext_resource type="AudioStream" uid="uid://do3gq5a01e882" path="res://sounds/laser shot cut.wav" id="3_g6bar"]
 [ext_resource type="Texture2D" uid="uid://h4x7s4bhcfx4" path="res://art/ship frame 2.png" id="3_y2y7n"]
+[ext_resource type="AudioStream" uid="uid://g8igx7atbnbk" path="res://sounds/rocket_rumble.mp3" id="4_g6bar"]
 [ext_resource type="Texture2D" uid="uid://brdukn0v4dm66" path="res://art/ship static.png" id="4_y2y7n"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5gt1y"]
@@ -43,7 +43,7 @@ bullet_scene = ExtResource("2_8kmw3")
 stream = ExtResource("3_g6bar")
 
 [node name="booster sound" type="AudioStreamPlayer2D" parent="CharacterBody2D" unique_id=1911280240]
-stream = ExtResource("3_m1h3n")
+stream = ExtResource("4_g6bar")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=106198992]
 position = Vector2(-20, -20)

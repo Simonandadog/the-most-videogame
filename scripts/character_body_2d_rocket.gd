@@ -9,7 +9,6 @@ extends CharacterBody2D
 
 const SPEED = 1000.0
 const JUMP_VELOCITY = -3000.0
-var fuel = 999999999999999
 var distance = 0
 
 
@@ -18,16 +17,14 @@ var distance = 0
 
 
 func shoot():
+	laser_shot_sound.play()
 	var b = bullet_scene.instantiate()
 	get_tree().current_scene.add_child(b)  
 	b.global_transform = $Muzzle.global_transform
-	laser_shot_sound.play()
-	timer.start()
 	
 
 
-func _on_timer_timeout() -> void:
-	laser_shot_sound.stop()
+
 
 
 
@@ -37,15 +34,17 @@ func _physics_process(delta: float) -> void:
 		velocity += get_gravity() * delta
 
 	# Handle rocket going up                                        .
-	if Input.get_axis("ASCEND", "ANTI_ASCEND") and fuel > 0:
+	if Input.get_axis("ASCEND", "ANTI_ASCEND"):
 			velocity.y = JUMP_VELOCITY
-			fuel -= 100
-			animated_sprite_2d.animation = &"flying"
-			rocket_travel_sound.play()
+			animated_sprite_2d.animation = &"flying"	
 	else:
 		animated_sprite_2d.animation = &"static"
+	
+	if Input.is_action_just_pressed("ASCEND"):
+		rocket_travel_sound.play()
+	elif Input.is_action_just_released("ASCEND"):
 		rocket_travel_sound.stop()
-		
+	
 	if distance > position.y :
 		distance = position.y
 	
