@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cvw73ddicacr7" path="res://scripts/rock_script.gd" id="1_1nqmy"]
 [ext_resource type="Texture2D" uid="uid://dal80gl26nr8r" path="res://art/rock3.png" id="2_0o7em"]
+[ext_resource type="AudioStream" uid="uid://c5671vyrdeu02" path="res://sounds/explosion.mp3" id="3_0o7em"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_vgk56"]
 radius = 472.0
@@ -18,5 +19,8 @@ texture = ExtResource("2_0o7em")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=897188906]
 position = Vector2(48, 8)
 shape = SubResource("CircleShape2D_vgk56")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1045219949]
+stream = ExtResource("3_0o7em")
 
 [connection signal="ready" from="." to="." method="_on_ready"]

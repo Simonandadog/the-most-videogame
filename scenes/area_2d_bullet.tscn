@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://ci7jvp3km4lrk" path="res://scripts/area_2d_bullet.gd" id="1_sw6mc"]
 [ext_resource type="Texture2D" uid="uid://bxik2f252ocq4" path="res://art/bullet.png" id="2_ea7ec"]
+[ext_resource type="AudioStream" uid="uid://c5671vyrdeu02" path="res://sounds/explosion.mp3" id="3_ea7ec"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ea0lc"]
 size = Vector2(144, 960)
@@ -22,6 +23,9 @@ position = Vector2(-24, -88)
 shape = SubResource("RectangleShape2D_ea0lc")
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." unique_id=1487529857]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=84644623]
+stream = ExtResource("3_ea7ec")
 
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
