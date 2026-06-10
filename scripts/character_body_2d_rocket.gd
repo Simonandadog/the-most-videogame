@@ -21,7 +21,8 @@ func shoot():
 	var b = bullet_scene.instantiate()
 	get_tree().current_scene.add_child(b)  
 	b.global_transform = $Muzzle.global_transform
-	
+
+
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
